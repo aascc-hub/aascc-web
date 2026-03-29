@@ -124,7 +124,7 @@ const Footer = () => {
       <div className="bg-blue-950 border-t border-blue-800 py-4">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between text-sm text-blue-200">
-            <p>&copy; 2027 AASCC All rights reserved.</p>
+            <p>&copy; 2026 AASCC All rights reserved.</p>
             <div className="flex space-x-4 mt-2 md:mt-0">
               <Link to="#" className="hover:text-white">Privacy Policy</Link>
               <Link to="#" className="hover:text-white">Terms of Service</Link>
