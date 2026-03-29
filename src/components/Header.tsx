@@ -88,7 +88,7 @@ const Header = () => {
             <Phone className="h-5 w-5 mr-1" />
             <span className="text-sm hidden sm:inline">+91 8385 226 443 </span>
           </a>
-          <a href="mailto:info@aimca.edu.in" className="flex items-center text-white hover:text-blue-200">
+          <a href="mailto:anjumancollegebkl@gmail.com" className="flex items-center text-white hover:text-blue-200">
             <Mail className="h-5 w-5 mr-1" />
             <span className="text-sm hidden sm:inline">college@anjuman.edu.in | anjumancollegebkl@gmail.com</span>
           </a>
