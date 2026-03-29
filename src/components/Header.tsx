@@ -97,16 +97,16 @@ const Header = () => {
           <a href="https://www.facebook.com/adcbkl.bhatkal" className="text-white hover:text-blue-200" aria-label="Facebook">
             <Facebook className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="Twitter">
+          <a href="https://twitter.com/anjumandegree" className="text-white hover:text-blue-200" aria-label="Twitter">
             <Twitter className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="Instagram">
+          <a href="https://www.instagram.com/anjumandegreecollege" className="text-white hover:text-blue-200" aria-label="Instagram">
             <Instagram className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="LinkedIn">
+          <a href="https://in.linkedin.com/school/anjuman-arts-science-&-commerce-college-bhatkal./" className="text-white hover:text-blue-200" aria-label="LinkedIn">
             <Linkedin className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="YouTube">
+          <a href="https://youtube.com/channel/UC5UwTgpJuzNjlmufqmCTEbw" className="text-white hover:text-blue-200" aria-label="YouTube">
             <Youtube className="h-5 w-5" />
           </a>
         </div>
