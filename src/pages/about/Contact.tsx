@@ -7,17 +7,17 @@ const Contact = () => {
       title: 'Address',
       details: [
         'Anjuman Arts Science & Commerce College (AASCC)',
-        'Near Anjuman Pre University College Bhatkal, Karnataka - 581320',
+        'Beside Anjuman Pre University College Bhatkal, Karnataka - 581320',
       ]
     },
     {
       icon: Phone,
       title: 'Phone',
       details: [
-        'Main Office: "+91 8385 226 443 ',
+        'Main Office: "+91 80735 94532 ',
         'Admissions: +91 98765 43211',
-        'Principal: +91 98765 43212',
-        'Fax: +91 98765 43213'
+        'Principal: +91 98864 47244',
+        
       ]
     },
     {
@@ -26,15 +26,15 @@ const Contact = () => {
       details: [
         'college@anjuman.edu.in |',
         'admissions@anjumancollege.edu.in',
-        'kmmohsin@anjuman.edu.in',
-        'academic@anjumancollege.edu.in'
+        'yusufzk87@gmail.com',
+        
       ]
     },
     {
       icon: Clock,
       title: 'Office Hours',
       details: [
-        'Saturday - Thursday: 9:00 AM - 2:50 PM',
+        'Saturday - Thursday: 9:00 AM - 3:00 PM',
         'Thursday: 9:00 AM - 1:00 PM',
         'Friday: Closed',
         'During Exams: Extended Hours'
@@ -187,7 +187,7 @@ const Contact = () => {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="AIMCA Location"
+              title="AASCC Location"
             ></iframe>
           </div>
         </div>
@@ -224,7 +224,7 @@ const Contact = () => {
               </div>
               <h3 className="text-lg font-semibold text-white mb-2">By Road</h3>
               <p className="text-blue-100 text-sm">
-                AIMCA is located in Bhatkal, Karnataka. The college is easily accessible by road.
+                AASCC is located in Bhatkal, Karnataka. The college is easily accessible by road.
                 From major cities like Mangalore (about 120 km south) or Goa (about 150 km north),
                 take NH66 (formerly NH17).
               </p>
