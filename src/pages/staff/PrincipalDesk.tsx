@@ -24,10 +24,10 @@ const PrincipalDesk = () => {
                   className="w-full h-96 object-cover"
                 />
                 <div className="p-6">
-                  <h2 className="text-xl font-bold text-blue-900 mb-2">Prof. Muhammad Yusuf Kola</h2>
+                  <h2 className="text-xl font-bold text-blue-900 mb-2">Prof. Muhammed Yusuf Kola</h2>
                   <p className="text-yellow-600 font-semibold mb-4">Principal</p>
                   <div className="space-y-2 text-sm text-gray-600">
-                    <p><span className="font-semibold">Education:</span> KSET B.com, B.Ed, M.B.A (HR), M.Com</p>
+                    <p><span className="font-semibold">Education:</span> M.B.A (HR), M.Com, B.Ed, KSET</p>
                     <p><span className="font-semibold">Experience:</span> 15+ years in Academia</p>
                     <p><span className="font-semibold">Phone No:</span> +91 80735 94532</p>
                     {/* <p><span className="font-semibold">Email:</span> kmmohsin@anjuman.edu.in</p> */}
@@ -45,7 +45,7 @@ const PrincipalDesk = () => {
                   and building character. At Anjuman Arts, Science & Commerce College, Bhatkal, we are committed to nurturing not just successful 
                   professionals, but responsible citizens who will contribute meaningfully to society."
                 </blockquote>
-                <p className="text-yellow-400 font-semibold">- Prof. Muhammad Yusuf Kola</p>
+                <p className="text-yellow-400 font-semibold">- Prof. Muhammed Yusuf Kola</p>
               </div>
             </div>
           </div>

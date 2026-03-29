@@ -10,7 +10,7 @@ const BScProgramDetail = () => {
     abbreviation: 'B.Sc',
     duration: '3 Years',
     seats: '80',
-    fees: '₹85,000 per annum',
+    fees: '₹30000 per annum',
     placements: '90% placement rate with average package of 4.5 LPA',
     tagline: 'Inquiry, Innovation, and Discovery',
     overview: 'The Bachelor of Science is a versatile 3-year program designed to develop analytical thinking and scientific temperament. It provides a rigorous foundation in theoretical and practical aspects of modern science.',

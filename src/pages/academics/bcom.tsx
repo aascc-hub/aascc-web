@@ -10,7 +10,7 @@ const BComProgramDetail = () => {
     abbreviation: 'B.Com',
     duration: '3 Years',
     seats: '120',
-    fees: '₹1,50,000 per annum',
+    fees: '₹25000 per annum',
     placements: '90% placement rate with average package of 5.5 LPA',
     tagline: 'Empowering Future Financial Leaders',
     overview: 'The Bachelor of Commerce is a comprehensive 3-year program designed to provide a strong foundation in financial accounting, taxation, and business management. Our curriculum integrates traditional commerce with modern digital finance.',
