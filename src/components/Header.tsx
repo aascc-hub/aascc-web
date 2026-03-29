@@ -94,7 +94,7 @@ const Header = () => {
           </a>
         </div>
         <div className="flex items-center space-x-2">
-          <a href="#" className="text-white hover:text-blue-200" aria-label="Facebook">
+          <a href="https://www.facebook.com/adcbkl.bhatkal" className="text-white hover:text-blue-200" aria-label="Facebook">
             <Facebook className="h-5 w-5" />
           </a>
           <a href="#" className="text-white hover:text-blue-200" aria-label="Twitter">
