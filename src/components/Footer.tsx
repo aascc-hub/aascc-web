@@ -33,11 +33,11 @@ const Footer = () => {
               <img src="/images/Logo.webp" alt="Logo" className="h-12 w-16 object-contain" />
               </div>
               <div>
-                <h3 className="text-lg font-bold">Anjuman arts, science and commerce college and PG centre</h3>
+                <h3 className="text-lg font-bold">Anjuman Arts, Science and Commerce College, Bhatkal</h3>
               </div>
             </div>
             <p className="text-blue-200 text-sm leading-relaxed">
-              Anjuman arts, science and commerce college and PG centre is committed to providing quality education and fostering academic excellence. 
+              Anjuman Arts, Science and Commerce college, Bhatkal is committed to providing quality education and fostering academic excellence. 
               We prepare students for successful careers and responsible citizenship.
             </p>
             <div className="flex space-x-3">
@@ -124,7 +124,7 @@ const Footer = () => {
       <div className="bg-blue-950 border-t border-blue-800 py-4">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between text-sm text-blue-200">
-            <p>&copy; 2025 AASCC All rights reserved.</p>
+            <p>&copy; 2026 AASCC All rights reserved.</p>
             <div className="flex space-x-4 mt-2 md:mt-0">
               <Link to="#" className="hover:text-white">Privacy Policy</Link>
               <Link to="#" className="hover:text-white">Terms of Service</Link>
