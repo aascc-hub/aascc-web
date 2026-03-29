@@ -25,7 +25,7 @@ const BannerSection = () => {
           {/* Right side - Image */}
           <div className="lg:w-1/2">
             <img
-              src="/images/Banner3.jpg"
+              src="/images/Banner Clg.jpg"
               alt="AIMCA Campus"
               className="w-full h-auto rounded-lg shadow-lg"
             />
