@@ -17,7 +17,7 @@ const Contact = () => {
         'Main Office: "+91 80735 94532 ',
         'Admissions: +91 98765 43211',
         'Principal: +91 98864 47244',
-        
+
       ]
     },
     {
@@ -27,7 +27,7 @@ const Contact = () => {
         'college@anjuman.edu.in |',
         'admissions@anjumancollege.edu.in',
         'yusufzk87@gmail.com',
-        
+
       ]
     },
     {
@@ -42,14 +42,14 @@ const Contact = () => {
     }
   ];
 
-  const departments = [
-    { name: 'Admissions Office', phone: '+91 98765 43211', email: 'admissions@anjumancollege.edu.in' },
-    { name: 'Academic Office', phone: '+91 98765 43214', email: 'academic@anjumancollege.edu.in' },
-    { name: 'Student Affairs', phone: '+91 98765 43215', email: 'students@anjumancollege.edu.in' },
-    { name: 'Finance Office', phone: '+91 98765 43216', email: 'finance@anjumancollege.edu.in' },
-    { name: 'Library', phone: '+91 98765 43217', email: 'library@anjumancollege.edu.in' },
-    { name: 'Placement Cell', phone: '+91 98765 43218', email: 'placements@anjumancollege.edu.in' }
-  ];
+  // const departments = [
+  //   { name: 'Admissions Office', phone: '+91 98765 43211', email: 'admissions@anjumancollege.edu.in' },
+  //   { name: 'Academic Office', phone: '+91 98765 43214', email: 'academic@anjumancollege.edu.in' },
+  //   { name: 'Student Affairs', phone: '+91 98765 43215', email: 'students@anjumancollege.edu.in' },
+  //   { name: 'Finance Office', phone: '+91 98765 43216', email: 'finance@anjumancollege.edu.in' },
+  //   { name: 'Library', phone: '+91 98765 43217', email: 'library@anjumancollege.edu.in' },
+  //   { name: 'Placement Cell', phone: '+91 98765 43218', email: 'placements@anjumancollege.edu.in' }
+  // ];
 
   return (
     <div className="pt-24 pb-16">
@@ -112,7 +112,7 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              
+
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                   Email Address *
@@ -124,7 +124,7 @@ const Contact = () => {
                   required
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
                   Phone Number
@@ -135,7 +135,7 @@ const Contact = () => {
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 />
               </div>
-              
+
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                   Subject *
@@ -153,7 +153,7 @@ const Contact = () => {
                   <option value="other">Other</option>
                 </select>
               </div>
-              
+
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                   Message *
@@ -166,7 +166,7 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-              
+
               <button
                 type="submit"
                 className="w-full bg-blue-900 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center"
@@ -180,8 +180,7 @@ const Contact = () => {
           {/* Map */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <iframe
-              src="https://maps.app.goo.gl/2tVh4EGKozK3sg1G8?g_st=awb2"
-              width="100%"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.518671424683!2d74.5513271759086!3d13.987211091723533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc42e7a8354ee7%3A0xdebffbbeb940db9b!2sAnjuman%20Arts%2C%20Science%2C%20Commerce%20College%20and%20PG%20Centre!5e0!3m2!1sen!2sin!4v1711822000000!5m2!1sen!2sin"              width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen={true}
@@ -192,7 +191,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Department Contacts */}
+        {/* Department Contacts
         <div className="mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-blue-900 text-center mb-12">Department Contacts</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -212,7 +211,7 @@ const Contact = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Directions */}
         <div className="bg-blue-900 text-white rounded-lg p-8">
