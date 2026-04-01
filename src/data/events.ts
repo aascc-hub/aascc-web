@@ -33,9 +33,9 @@ export const allEvents: EventType[] = [
   {
     id: 2,
     title: 'FUZIONA',
-    date: '2026-5-25',
+    date: '2026-12-25',
     day: '25',
-    month: 'may',
+    month: 'Dec',
     time: '9:00 AM - 1:00 PM',
     venue: 'College Auditorium',
     category: 'workshop',
@@ -44,6 +44,24 @@ export const allEvents: EventType[] = [
     status: 'upcoming'
   },
   {
+    id: 3,
+    title: 'UKDFA Referee Examination',
+    date: '2026-3-27',
+    day: '27',
+    month: 'Mar',
+    time: '9:00 AM - 1:00 PM',
+    venue: 'College Campus',
+    category: 'Examination',
+    heroImage: '/images/UKDFA.jpg',
+    attendees: '28 participants',
+    status: 'past',
+    description: `The Uttara Kannada District Football Association successfully hosted a three-day Referee Examination in Bhatkal from March 27th to 29th, 2026. The event was conducted under the supervision of the Karnataka State Football Association and its Referee Committee.
+                  The sessions were led by Mr. Sandeep Nanda from Kolkata, a national-level referee under the All India Football Federation. Over the course of three days, participants underwent both practical and theoretical training, concluding with a fitness test and a theory examination on the final day.
+                  A total of 28 aspirants participated in the program, representing various regions including Gulbarga, Bidar, Karwar, Shirur, and Byndoor. Notably, 19 of the participants were students from Anjuman College. The event was organized in association with Anjuman Arts, Science and Commerce College, with continuous support from Anjuman Hami-e-Muslimeen.
+                  This initiative provides a valuable opportunity for aspiring officials; those who successfully clear the examination have strong prospects of securing immediate officiating opportunities. The results are expected to be announced within one month.`,
+  },
+  {
+
     id: 3,
     title: 'Green Campus Campaign',
     date: '2019-11-05',
@@ -57,6 +75,34 @@ export const allEvents: EventType[] = [
     status: 'past',
     description: 'The Tech Workshop on Cloud Computing was a comprehensive hands-on training session designed to equip students with practical skills in cloud technologies.\n\nParticipants learned about major cloud platforms including AWS, Azure, and Google Cloud. The workshop covered essential topics such as cloud architecture, deployment strategies, security best practices, and cost optimization.\n\nStudents worked on real-world projects, deploying applications to the cloud and managing cloud resources. Industry experts shared insights about current trends and career opportunities in cloud computing. The interactive format allowed students to ask questions and receive personalized guidance from experienced professionals.'
   },
+  // {
+  //   id: 3,
+  //   title: 'Green Campus Campaign',
+  //   date: '2019-11-05',
+  //   day: '05',
+  //   month: 'Nov',
+  //   time: '9:00 AM - 11:00 PM',
+  //   venue: 'College Campus',
+  //   category: 'Workshop',
+  //   heroImage: '/images/green event.jpg',
+  //   attendees: '90 participants',
+  //   status: 'past',
+  //   description: 'The Tech Workshop on Cloud Computing was a comprehensive hands-on training session designed to equip students with practical skills in cloud technologies.\n\nParticipants learned about major cloud platforms including AWS, Azure, and Google Cloud. The workshop covered essential topics such as cloud architecture, deployment strategies, security best practices, and cost optimization.\n\nStudents worked on real-world projects, deploying applications to the cloud and managing cloud resources. Industry experts shared insights about current trends and career opportunities in cloud computing. The interactive format allowed students to ask questions and receive personalized guidance from experienced professionals.'
+  // },
+  // {
+  //   id: 3,
+  //   title: 'Green Campus Campaign',
+  //   date: '2019-11-05',
+  //   day: '05',
+  //   month: 'Nov',
+  //   time: '9:00 AM - 11:00 PM',
+  //   venue: 'College Campus',
+  //   category: 'Workshop',
+  //   heroImage: '/images/green event.jpg',
+  //   attendees: '90 participants',
+  //   status: 'past',
+  //   description: 'The Tech Workshop on Cloud Computing was a comprehensive hands-on training session designed to equip students with practical skills in cloud technologies.\n\nParticipants learned about major cloud platforms including AWS, Azure, and Google Cloud. The workshop covered essential topics such as cloud architecture, deployment strategies, security best practices, and cost optimization.\n\nStudents worked on real-world projects, deploying applications to the cloud and managing cloud resources. Industry experts shared insights about current trends and career opportunities in cloud computing. The interactive format allowed students to ask questions and receive personalized guidance from experienced professionals.'
+  // },
   {
     id: 4,
     title: 'Alumni Meet 2024',

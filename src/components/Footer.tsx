@@ -41,16 +41,16 @@ const Footer = () => {
               We prepare students for successful careers and responsible citizenship.
             </p>
             <div className="flex space-x-3">
-              <a href="#" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
+              <a href="https://www.facebook.com/adcbkl.bhatkal" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
+              <a href="https://twitter.com/anjumandegree" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
+              <a href="https://www.instagram.com/anjumandegreecollege" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
+              <a href="https://youtube.com/channel/UC5UwTgpJuzNjlmufqmCTEbw" className="text-blue-200 hover:text-yellow-500 transition-colors duration-200">
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
@@ -103,15 +103,15 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-yellow-500 flex-shrink-0" />
-                <p className="text-blue-200 text-sm">+91 8385226443</p>
+                <p className="text-blue-200 text-sm">+91 83852 26443</p>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-yellow-500 flex-shrink-0" />
-                <p className="text-blue-200 text-sm">college@anjuman.edu.in,</p>
+                <p className="text-blue-200 text-sm">anjumancollegebkl@gmail.com</p>
               </div>
               <div className="flex items-center space-x-2">
                 <PhoneCall className="h-4 w-4 text-yellow-500 flex-shrink-0" />
-                <p className="text-blue-200 text-sm">Telephone: +91 8385 226 443</p>
+                <p className="text-blue-200 text-sm">Telephone: +91 80735 94532</p>
               </div>
             </div>
           </div>

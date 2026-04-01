@@ -180,7 +180,8 @@ const Contact = () => {
           {/* Map */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <iframe
-             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.518671424683!2d74.5513271759086!3d13.987211091723533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc42e7a8354ee7%3A0xdebffbbeb940db9b!2sAnjuman%20Arts%2C%20Science%2C%20Commerce%20College%20and%20PG%20Centre!5e0!3m2!1sen!2sin!4v1711822000000!5m2!1sen!2sin"              width="100%"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.518671424683!2d74.5513271759086!3d13.987211091723533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc42e7a8354ee7%3A0xdebffbbeb940db9b!2sAnjuman%20Arts%2C%20Science%2C%20Commerce%20College%20and%20PG%20Centre!5e0!3m2!1sen!2sin!4v1711822000000!5m2!1sen!2sin"
+              width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen={true}
