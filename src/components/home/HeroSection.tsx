@@ -81,7 +81,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ slides }) => {
       </div>
 
       <a
-        href="https://wa.me/918073594532?text=Hello%2C%20I%20have%20an%20inquiry%20about%20AASCC"
+        href="https://wa.me/918073594532?text=Hello%20Sir%2C%20I%20have%20an%20inquiry%20about%20AASCC"
         target="_blank"
         rel="noopener noreferrer"
         className="absolute right-8 bottom-8 transform -translate-y-1/2 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-20 transition-colors duration-200 animate-bounce"

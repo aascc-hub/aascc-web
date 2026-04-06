@@ -13,7 +13,7 @@ const NonTeachingStaff = () => {
         { name: 'Mr. Mohammed Ganim Mohtisham', designation: 'S.W.O & Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '+91 99008 30001', image: '/images/MOHD-GANIM.jpeg' },
         { name: 'Ms. Fathima Famina', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics)', email: '', phone: '', image: '' },
         { name: 'Dr. D. S. Prabhu', designation: 'H.O.D & Assistant Professor in Economics', qualification: 'M.A (Economics), M.Phil, Ph.D', email: '', phone: '', image: '/images/prabu sir.jpg' },
-        { name: 'Mr. Radhakrishna Sheta', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/Radhakrishna.jpeg' },
+        { name: 'Mr. Radhakrishna Shet', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/Radhakrishna.jpeg' },
         { name: 'Ms. Pavitra R. Naik', designation: ' Lecturer in Sociology', qualification: 'M.A', email: '', phone: '', image: '/images/Pavitra-R-Naik.jpeg' },
         { name: 'Ms. Hema Poojari', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics), M.Com., B.Ed', email: '', phone: '', image: '/images/Hema-Poojari.jpg' },
         { name: 'Mr. K. Kaleemulla', designation: 'Physical Education Director & Rovers Scout Leader', qualification: 'M.P.Ed, M.Phil', email: '', phone: '', image: '/images/Kaleemulla.jpg' },
