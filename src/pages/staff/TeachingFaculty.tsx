@@ -7,8 +7,8 @@ const NonTeachingStaff = () => {
     {
       category: 'Teaching Staff',
       staff: [
-        { name: 'Prof. Mohammed Yusuf Kola', designation: 'Principal', qualification: 'K.SET, B.com, B.Ed, MBA, M.com', email: '', phone: '', image: '/images/Yusuf Kola.png' },
-        { name: 'Prof. Mohammad Hibban', designation: 'Vice-Principal', qualification: ' B.Com, MBA, M.Com, (Ph.D)', email: '', phone: '', image: '/images/MOHAMMED-HIBBAN.jpg' },
+        { name: 'Prof. Mohammed Yusuf Kola', designation: 'Principal', qualification: 'KSET, M.Com, MBA, B.Ed', email: '', phone: '', image: '/images/Yusuf Kola.png' },
+        { name: 'Prof. Mohammed Hibban', designation: 'Vice-Principal', qualification: ' M.Com, (Ph.D)', email: '', phone: '', image: '/images/MOHAMMED-HIBBAN.jpg' },
         { name: 'Mr. Aftab G.M', designation: 'Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '', image: '/images/12.-AFTAB.jpg' },
         { name: 'Mr. Mohammed Ganim Mohtisham', designation: 'S.W.O & Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '', image: '/images/MOHD-GANIM.jpeg' },
         { name: 'Ms. Fathima Famina', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics)', email: '', phone: '', image: '/images/Fathima.png' },
