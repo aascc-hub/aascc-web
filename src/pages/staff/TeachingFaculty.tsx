@@ -7,35 +7,33 @@ const NonTeachingStaff = () => {
     {
       category: 'Teaching Staff',
       staff: [
-        { name: 'Prof. Mohammed Yusuf Kola', designation: 'Principal', qualification: 'K.SET, B.com, B.Ed, MBA, M.com', email: '', phone: '+91 80735 94532', image: '/images/principal.jpg' },
-        { name: 'Prof. Mohammad Hibban', designation: 'Vice-Principal', qualification: ' B.Com, MBA, M.Com, (Ph.D)', email: '', phone: '+91 96203 33720', image: '/images/MOHAMMED-HIBBAN.jpg' },
-        { name: 'Mr. Aftab G.M', designation: 'Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '+91 77952 79727', image: '/images/12.-AFTAB.jpg' },
-        { name: 'Mr. Mohammed Ganim Mohtisham', designation: 'S.W.O & Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '+91 99008 30001', image: '/images/MOHD-GANIM.jpeg' },
-        { name: 'Ms. Fathima Famina', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics)', email: '', phone: '', image: '' },
+        { name: 'Prof. Mohammed Yusuf Kola', designation: 'Principal', qualification: 'K.SET, B.com, B.Ed, MBA, M.com', email: '', phone: '', image: '/images/Yusuf Kola.png' },
+        { name: 'Prof. Mohammad Hibban', designation: 'Vice-Principal', qualification: ' B.Com, MBA, M.Com, (Ph.D)', email: '', phone: '', image: '/images/MOHAMMED-HIBBAN.jpg' },
+        { name: 'Mr. Aftab G.M', designation: 'Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '', image: '/images/12.-AFTAB.jpg' },
+        { name: 'Mr. Mohammed Ganim Mohtisham', designation: 'S.W.O & Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '', image: '/images/MOHD-GANIM.jpeg' },
+        { name: 'Ms. Fathima Famina', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics)', email: '', phone: '', image: '/images/Fathima.png' },
         { name: 'Dr. D. S. Prabhu', designation: 'H.O.D & Assistant Professor in Economics', qualification: 'M.A (Economics), M.Phil, Ph.D', email: '', phone: '', image: '/images/prabu sir.jpg' },
+<<<<<<< HEAD
         { name: 'Mr. Radhakrishna Shet', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/Radhakrishna.jpeg' },
         { name: 'Ms. Pavitra R. Naik', designation: ' Lecturer in Sociology', qualification: 'M.A', email: '', phone: '', image: '/images/Pavitra-R-Naik.jpeg' },
         { name: 'Ms. Hema Poojari', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics), M.Com., B.Ed', email: '', phone: '', image: '/images/Hema-Poojari.jpg' },
+=======
+        { name: 'Mr. Radhakrishna Sheta', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/Radhakrishna.jpeg' },
+        { name: 'Ms. Pavitra R. Naik', designation: ' Lecturer in Sociology', qualification: 'M.A', email: '', phone: '', image: '/images/Pavitra2.png' },
+>>>>>>> 71f593a7174ce6ff84da37f074280f015a0e717f
         { name: 'Mr. K. Kaleemulla', designation: 'Physical Education Director & Rovers Scout Leader', qualification: 'M.P.Ed, M.Phil', email: '', phone: '', image: '/images/Kaleemulla.jpg' },
         { name: 'Prof. Abdul Rehman Muneeb', designation: 'H.O.D & Lecturer in Chemistry', qualification: 'M.Sc, B.Ed', email: '', phone: '', image: '/images/MUNEEB-KADLI.jpeg' },
         { name: 'Mr. Dr. Vinayak Anand Kamat', designation: ' N.C.C Officer & Lecturer in Physics', qualification: 'M.Sc, Ph.D', email: '', phone: '', image: '/images/vinayak.jpeg' },
         { name: 'Mr. B.H. Nadaf', designation: ' Associate Professor in Mathematics', qualification: 'M.Sc, M.Phil', email: '', phone: '', image: '/images/B-H-Nadaf.jpeg' },
         { name: 'Ms. M. Poornima ', designation: ' Lecturer in Botany', qualification: 'M.Sc., B.Ed., KSET', email: '', phone: '', image: '/images/poornima.jpeg' },
-        {name: 'Ms. Bibi Noora', designation: 'Lecturer in Botany', qualification: 'M.Sc.CA, BCA', email: '', phone: '', image: ''},
+        {name: 'Ms. Bibi Noora', designation: 'Lecturer in Botany', qualification: 'M.Sc', email: '', phone: '', image: '/images/Bibi Noora.png'},
         {name: 'Mr.Umesh Mestha', designation: ' H.O.D & Lecturer in Computer Science', qualification: 'MCA, M.A (English), B.Sc, B.Ed,', email: '', phone: '', image: '/images/UMESH-MESTHA.jpeg'},
         {name: 'Mr. Damodar Naik', designation: 'Lecturer in Kannada', qualification: 'M.A (Kannada)', email: '', phone: '', image: '/images/damodar.jpg'},
-        {name: 'Ms. Niha', designation: 'Lecturer in Kannada', qualification: 'M.A (Kannada)', email: '', phone: '', image: ''},
-        {name: 'Mr. Shazeer Hussain', designation: 'H.O.D & Lecturer in English', qualification: 'M.A (English), B.E (CS), B.Ed', email: '', phone: '81233 50845', image: '/images/Shazeer-Hussain.jpg'},
-        {name: 'Mr. Rauoof Ahmed Savanur', designation: 'H.O.D & Lecturer in urdu', qualification: 'M.A (Urdu), SLET, PGDCA', email: '', phone: '94487 76206', image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'},
+        {name: 'Ms. Niha', designation: 'Lecturer in Kannada', qualification: 'M.A (Kannada)', email: '', phone: '', image: '/images/Niha.png'},
+        {name: 'Ms. Maimun Nisa', designation: 'Lecturer in Mathematics', qualification: 'Msc', email: '', phone: '', image: '/images/maimunnisa.png'},
+        {name: 'Mr. Shazeer Hussain', designation: 'H.O.D & Lecturer in English', qualification: 'M.A (English), B.E (CS), B.Ed', email: '', phone: '', image: '/images/Shazeer-Hussain.jpg'},
+        {name: 'Mr. Rauoof Ahmed Savanur', designation: 'H.O.D & Lecturer in urdu', qualification: 'M.A (Urdu), SLET, PGDCA', email: '', phone: '', image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'},
         {name: 'Maulana danish Nadvi', designation: ' Lecturer in Arabic', qualification: 'M.A (Arabic),  B.Ed', email: '', phone: '', image: ''},
-          
-          
-          
-    
-
-
-      
-      
       ]
     },
 
@@ -67,7 +65,7 @@ const NonTeachingStaff = () => {
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">
-            <div className="text-4xl font-bold text-blue-900 mb-2">98%</div>
+            <div className="text-4xl font-bold text-blue-900 mb-2">100%</div>
             <div className="text-gray-600 text-sm">Academic Performance Rate</div>
           </div>
         </div>

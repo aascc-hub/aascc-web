@@ -1,6 +1,7 @@
 import { allEvents } from '../data/events';
 import { Users, Award, Trophy, BookOpen } from 'lucide-react';
 
+
 import HeroSection from '../components/home/HeroSection';
 import StatsSection from '../components/home/StatsSection';
 import AnnouncementsSection from '../components/home/AnnouncementsSection';
@@ -168,7 +169,6 @@ const HomePage = () => {
     },
     
   ];
-
 
 
   // const testimonials = [

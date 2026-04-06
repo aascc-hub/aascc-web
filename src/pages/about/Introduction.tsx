@@ -3,7 +3,9 @@ import { Award, Users, BookOpen, Target } from 'lucide-react';
 const Introduction = () => {
   const milestones = [
     { year: '1968', title: 'Foundation', description: 'Anjuman Arts, Science, and Commerce College was established with the aim of providing high-quality management education.' },
-    { year: '2005', title: 'Accreditation', description: 'Awarded NAAC accreditation with Grade A' },
+    { year: '2006', title: 'Accreditation', description: 'Awarded NAAC accreditation with Grade B' },
+    { year: '2015', title: 'Accreditation', description: 'Awarded NAAC accreditation with Grade B' },
+    { year: '2025', title: 'Accreditation', description: 'Awarded NAAC accreditation with Grade B+' },
     { year: '2020', title: 'Digital Initiative', description: 'Launched comprehensive digital learning platform' }
   ];
 
@@ -89,7 +91,7 @@ const Introduction = () => {
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Our Commitment</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                At Anjuman Arts Sc Com We are committed to providing a high-quality academic experience that blends traditional values with modern learning. Our focus is on delivering a rigorous curriculum in Arts, Science, and Commerce that prepares students for the competitive global market. By fostering a culture of research and critical thinking, we ensure our graduates are equipped with the expertise and analytical skills needed to excel in their professional careers and higher education.
+                At Anjuman Arts, Science, and Commerce College We are committed to providing a high-quality academic experience that blends traditional values with modern learning. Our focus is on delivering a rigorous curriculum in Arts, Science, and Commerce that prepares students for the competitive global market. By fostering a culture of research and critical thinking, we ensure our graduates are equipped with the expertise and analytical skills needed to excel in their professional careers and higher education.
               </p>
               <p>
                 Our commitment extends beyond the classroom to the complete development of every student’s personality. We provide a vibrant environment where extracurricular activities, sports, and leadership opportunities allow students to discover their true potential. By balancing academic life with personal growth, we nurture confident, resilient individuals who are ready to take on real-world challenges with a creative and innovative mindset.

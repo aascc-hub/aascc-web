@@ -10,7 +10,7 @@ const MComProgramDetail = () => {
     abbreviation: 'M.Com',
     duration: '2 Years',
     seats: '40',
-    fees: '₹1,20,000 per annum',
+    fees: '₹40000 per annum',
     placements: '94% placement rate with average package of 6.5 LPA',
     tagline: 'Mastering the Dynamics of Global Commerce',
     overview: 'The M.Com program is an advanced post-graduate degree focused on business environment, accounting, and financial management. It prepares students for leadership roles in corporate and academic sectors.',

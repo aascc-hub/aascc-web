@@ -84,9 +84,9 @@ const Header = () => {
     }`}>
       <div className="bg-blue-900 h-10 flex items-center justify-between px-4">
         <div className="flex items-center space-x-4">
-          <a href="tel:08385-226283, +91 9916932224 " className="flex items-center text-white hover:text-blue-200">
+          <a href="tel:80735 94532" className="flex items-center text-white hover:text-blue-200">
             <Phone className="h-5 w-5 mr-1" />
-            <span className="text-sm hidden sm:inline">+91 8385 226 443 </span>
+            <span className="text-sm hidden sm:inline">+91 80735 94532 </span>
           </a>
           <a href="mailto:anjumancollegebkl@gmail.com" className="flex items-center text-white hover:text-blue-200">
             <Mail className="h-5 w-5 mr-1" />
@@ -94,19 +94,19 @@ const Header = () => {
           </a>
         </div>
         <div className="flex items-center space-x-2">
-          <a href="#" className="text-white hover:text-blue-200" aria-label="Facebook">
+          <a href="https://www.facebook.com/adcbkl.bhatkal" className="text-white hover:text-blue-200" aria-label="Facebook">
             <Facebook className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="Twitter">
+          <a href="https://twitter.com/anjumandegree" className="text-white hover:text-blue-200" aria-label="Twitter">
             <Twitter className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="Instagram">
+          <a href="https://www.instagram.com/anjumandegreecollege" className="text-white hover:text-blue-200" aria-label="Instagram">
             <Instagram className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="LinkedIn">
+          <a href="https://in.linkedin.com/school/anjuman-arts-science-&-commerce-college-bhatkal./" className="text-white hover:text-blue-200" aria-label="LinkedIn">
             <Linkedin className="h-5 w-5" />
           </a>
-          <a href="#" className="text-white hover:text-blue-200" aria-label="YouTube">
+          <a href="https://youtube.com/channel/UC5UwTgpJuzNjlmufqmCTEbw" className="text-white hover:text-blue-200" aria-label="YouTube">
             <Youtube className="h-5 w-5" />
           </a>
         </div>

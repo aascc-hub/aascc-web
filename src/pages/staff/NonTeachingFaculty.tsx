@@ -16,6 +16,8 @@ const NonTeachingStaff = () => {
         { name: 'Mr. A. A. Mulla', designation: 'Attender', qualification: 'SSLC', email: '', phone: '', image: '/images/Mulla.jpg' },
         { name: 'Mr. Maqbool Ahmed', designation: 'Peon', qualification: 'SSLC', email: '', phone: '', image: '/images/Maqbool.jpeg' },
         { name: 'Mr. Fakhruddin', designation: 'Gardner', qualification: 'PUC', email: '', phone: '', image: '/images/Fakhruddin.jpeg' },
+        { name: 'Ms.Mastamma Moger', designation: 'Sweeper', qualification: '', email: '', phone: '', image: '/images/mastamma moger.png' },
+        { name: 'Ms.Padmavati Moger', designation: 'Sweeper', qualification: '', email: '', phone: '', image: '/images/padmavati moger.png' },
       ]
     },
   ];

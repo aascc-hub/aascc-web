@@ -10,7 +10,7 @@ const MAProgramDetail = () => {
     abbreviation: 'M.A',
     duration: '2 Years',
     seats: '60',
-    fees: '₹75,000 per annum',
+    fees: '₹20000 per annum',
     placements: '85% placement rate with average package of 4.2 LPA',
     tagline: 'Fostering Critical Thinking and Cultural Literacy',
     overview: 'Our M.A program offers advanced studies in Humanities and Social Sciences, specializing in Urdu, Kannada, and Economics. Each track provides a blend of classical knowledge and contemporary application.',

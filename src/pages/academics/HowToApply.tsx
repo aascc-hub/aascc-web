@@ -80,13 +80,13 @@ const HowToApply = () => {
         <div className="mt-12 bg-yellow-50 p-6 rounded-xl shadow-md">
           <h2 className="text-3xl font-bold text-blue-900 mb-4">Academic Term & Vacation</h2>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li>Last Date for Admission without Penal Fee: 10-07-2019</li>
-            <li>1st, 3rd, 5th Semester Reopening Date: 18-06-2019</li>
-            <li>Last Date with Penal Fee ₹610: 18-07-2019</li>
-            <li>Last Working Day of 1st Term: 14-10-2019</li>
-            <li>Mid-Term Vacation: 15-10-2019 to 15-12-2019</li>
-            <li>Reopening of 2nd Term: 16-12-2019</li>
-            <li>Last Working Day of 2nd Term: 10-04-2020</li>
+            <li>Last Date for Admission without Penal Fee: 10-07-2025</li>
+            <li>1st, 3rd, 5th Semester Reopening Date: 18-06-2025</li>
+            <li>Last Date with Penal Fee ₹610: 18-07-2025</li>
+            <li>Last Working Day of 1st Term: 14-10-2025</li>
+            <li>Mid-Term Vacation: 15-10-2025 to 15-12-2025</li>
+            <li>Reopening of 2nd Term: 16-12-2025</li>
+            <li>Last Working Day of 2nd Term: 10-04-2025</li>
           </ul>
         </div>
       </div>

@@ -10,7 +10,7 @@ const BAProgramDetail = () => {
     abbreviation: 'BA',
     duration: '3 Years',
     seats: '150',
-    fees: '₹1,20,000 per annum',
+    fees: '₹15000 per annum',
     placements: '85% placement rate with average package of 5.0 LPA',
     tagline: 'Empowering Creative Minds & Leaders',
     overview: 'The Bachelor of Arts is a dynamic 3-year undergraduate program designed to foster critical thinking, effective communication, and a deep understanding of human society. Our curriculum prepares students for diverse careers in leadership and governance.',

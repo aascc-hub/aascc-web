@@ -1,0 +1,2 @@
+ <PlacementsSection placedStudents={placedStudents} recruitingCompanies={recruitingCompanies} />
+Placemet 452 line adding code 
