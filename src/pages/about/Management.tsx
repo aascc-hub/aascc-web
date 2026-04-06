@@ -14,7 +14,7 @@ const Management = () => {
     { name: 'Janab Sadullah Ruknuddin', title: 'Secretary, High School Board', image: '/images/Sadullah.jpg' },
     { name: 'Janab Abdul Hameed Athar Ruknuddin', title: 'Secretary, Deenyath Board', image: '/images/Athar.jpg' },
     { name: 'Janab Imtiyaz Hussain Ruknuddin', title: 'Member', image: '' },
-    { name: 'Janab Mohammed Meeran Ismailji', title: 'Member', image: '' },
+    { name: 'Janab Mohammed Meeran Ismail', title: 'Member', image: '' },
     { name: 'Janab Mohammed Mubasshir Hussain', title: 'Member', image: '' },
     { name: 'Janab Mr.Rameez Kola', title: 'Member', image: 'https://www.anjumancollege.in/wp-content/uploads/2024/06/Member-Mr.Rameez-Kola.jpg' },
     { name: 'Janab Shahriyar Ahmed Khateeb', title: 'Member', image: '' },

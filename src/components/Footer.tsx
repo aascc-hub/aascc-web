@@ -97,7 +97,7 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-yellow-500 mt-1 flex-shrink-0" />
                 <p className="text-blue-200 text-sm">
-                   AASCC, Anjumanabad, Bhatkal -
+                   AASCC, AnjumanAbad, Bhatkal -
                   581320
                 </p>
               </div>
