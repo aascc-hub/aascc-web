@@ -145,7 +145,7 @@ const HomePage = () => {
     },
     {
       title: 'Bachelor of Science',
-      abbreviation: 'Bsc',
+      abbreviation: 'B.Sc',
       description: 'In-depth science programs with hands-on laboratory experience',
       image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       duration: '3 Years',
