@@ -279,7 +279,7 @@ const HomePage = () => {
       image: '/images/prabu sir.jpg'
     },
     {
-      name: 'Mr. Radhakrishna Sheta',
+      name: 'Mr. Radhakrishna Shet',
       role: 'Lecturer in History',
       department: 'Teaching Staff',
       image: '/images/Radhakrishna.jpeg'
