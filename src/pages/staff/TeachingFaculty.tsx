@@ -13,14 +13,11 @@ const NonTeachingStaff = () => {
         { name: 'Mr. Mohammed Ganim Mohtisham', designation: 'S.W.O & Lecturer in Commerce', qualification: 'M.Com', email: '', phone: '', image: '/images/MOHD-GANIM.jpeg' },
         { name: 'Ms. Fathima Famina', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics)', email: '', phone: '', image: '/images/Fathima.png' },
         { name: 'Dr. D. S. Prabhu', designation: 'H.O.D & Assistant Professor in Economics', qualification: 'M.A (Economics), M.Phil, Ph.D', email: '', phone: '', image: '/images/prabu sir.jpg' },
-<<<<<<< HEAD
-        { name: 'Mr. Radhakrishna Shet', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/Radhakrishna.jpeg' },
+        { name: 'Mr. krishna Shet', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/krishna.jpeg' },
         { name: 'Ms. Pavitra R. Naik', designation: ' Lecturer in Sociology', qualification: 'M.A', email: '', phone: '', image: '/images/Pavitra-R-Naik.jpeg' },
-        { name: 'Ms. Hema Poojari', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics), M.Com., B.Ed', email: '', phone: '', image: '/images/Hema-Poojari.jpg' },
-=======
-        { name: 'Mr. Radhakrishna Sheta', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/Radhakrishna.jpeg' },
+        { name: 'Ms. Hema Poojari', designation: 'Lecturer in Economics', qualification: 'M.A. (Economics), M.Com., B.Ed', email: '', phone: '', image: '/images/Hema-Poojari.jpg'},  
+        { name: 'Mr. krishna Sheta', designation: 'Lecturer in History', qualification: 'M.A (History)', email: '', phone: '', image: '/images/krishna.jpeg' },
         { name: 'Ms. Pavitra R. Naik', designation: ' Lecturer in Sociology', qualification: 'M.A', email: '', phone: '', image: '/images/Pavitra2.png' },
->>>>>>> 71f593a7174ce6ff84da37f074280f015a0e717f
         { name: 'Mr. K. Kaleemulla', designation: 'Physical Education Director & Rovers Scout Leader', qualification: 'M.P.Ed, M.Phil', email: '', phone: '', image: '/images/Kaleemulla.jpg' },
         { name: 'Prof. Abdul Rehman Muneeb', designation: 'H.O.D & Lecturer in Chemistry', qualification: 'M.Sc, B.Ed', email: '', phone: '', image: '/images/MUNEEB-KADLI.jpeg' },
         { name: 'Mr. Dr. Vinayak Anand Kamat', designation: ' N.C.C Officer & Lecturer in Physics', qualification: 'M.Sc, Ph.D', email: '', phone: '', image: '/images/vinayak.jpeg' },
