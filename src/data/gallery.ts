@@ -21,7 +21,7 @@ export const galleryImages: GalleryImage[] = [
     category: 'Lab'
   },
   {
-    image: '/images/trafic 2.jpg',
+    image: '/images/UKDFA.jpg',
     title: 'Event Celebration',
     category: 'Events'
   },

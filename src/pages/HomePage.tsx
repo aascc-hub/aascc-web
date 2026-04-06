@@ -235,7 +235,7 @@ const HomePage = () => {
 
   const stats = [
     { number: '500+', label: 'Students Enrolled', icon: Users },
-    { number: '30+', label: 'Years of Excellence', icon: Award },
+    { number: '55+', label: 'Years of Excellence', icon: Award },
     { number: '18', label: 'University Toppers', icon: Trophy },
     { number: '23+', label: 'Faculty Members', icon: BookOpen }
   ];
