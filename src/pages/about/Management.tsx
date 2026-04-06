@@ -9,7 +9,7 @@ const Management = () => {
     { name: 'Janab Syed Ahmed Parvez S.M', title: 'Finance Secretary', image: 'https://www.anjumancollege.in/wp-content/uploads/2024/06/Finance-Secretary-Syed-Ahmed-Parvez-S.M.jpg' },
     { name: 'Janab Syed Hashim S J', title: 'Works Committee Secretary', image: '/images/hashim.jpg' },
     { name: 'Janab Mohammed Ansar Damda Abu', title: 'Secretary, IT, AITM BOARD', image: '/images/ansar-damdaabu.jpg' },
-    { name: 'Janab Mohammed Aheed Mohtesham', title: 'Secretary, AIMCA, ACE', image: '/images/Aheed_mohtesham.jpg' },
+    { name: 'Janab Mohammed Aheed Mohtesham', title: 'Secretary', image: '/images/Aheed_mohtesham.jpg' },
     { name: 'Janab Faiyaz Ahmed Kola', title: 'Secretary, Degree & PU College Board', image: '/images/FAIYAZ.jpg' },
     { name: 'Janab Sadullah Ruknuddin', title: 'Secretary, High School Board', image: '/images/Sadullah.jpg' },
     { name: 'Janab Abdul Hameed Athar Ruknuddin', title: 'Secretary, Deenyath Board', image: '/images/Athar.jpg' },
