@@ -26,7 +26,7 @@ const NonTeachingStaff = () => {
         {name: 'Prof. Umesh Mestha', designation: ' H.O.D & Lecturer in Computer Science', qualification: 'MCA, M.A (English), B.Sc, B.Ed,', email: '', phone: '', image: '/images/UMESH-MESTHA.jpeg'},
         {name: 'Prof. Damodar Naik', designation: 'Lecturer in Kannada', qualification: 'M.A (Kannada), PGDCA', email: '', phone: '', image: '/images/damodar.jpg'},
         {name: 'Ms. Niha', designation: 'Lecturer in Kannada', qualification: 'M.A (Kannada)', email: '', phone: '', image: '/images/Niha.png'},
-        {name: 'Ms. Maimunnisa', designation: 'Lecturer in Mathematics', qualification: 'Msc', email: '', phone: '', image: '/images/maimunnisa.png'},
+        {name: 'Ms. Maimunnisa', designation: 'Lecturer in Mathematics', qualification: 'M.Sc', email: '', phone: '', image: '/images/maimunnisa.png'},
         {name: 'Prof. Shazeer Hussain', designation: 'H.O.D & Lecturer in English', qualification: 'M.A (English), B.E (CS), B.Ed', email: '', phone: '', image: '/images/Shazeer-Hussain.jpg'},
         {name: 'Prof. Rauoof Ahmed Savanur', designation: 'H.O.D & Lecturer in Urdu', qualification: 'M.A (Urdu), SLET, PGDCA', email: '', phone: '', image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'},
         {name: 'Maulana Danish Nadvi', designation: ' Lecturer in Arabic', qualification: 'M.A (Arabic),  B.Ed', email: '', phone: '', image: ''},
