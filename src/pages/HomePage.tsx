@@ -298,6 +298,12 @@ const HomePage = () => {
       image: '/images/Radhakrishna.jpeg'
     },
     {
+      name: 'Dr. Vinayak Anand Kamat',
+      role: 'H.O.D & Lecturer in Physics',
+      department: 'Teaching Staff',
+      image: '/images/vinayak.jpeg'
+    },
+    {
       name: 'Mr. Shazeer Hussain',
       role: 'Web Developer, H.O.D & Lecturer in English',
       department: 'Teaching Staff',
@@ -332,12 +338,6 @@ const HomePage = () => {
       role: 'Lecturer in Chemistry',
       department: 'Teaching Staff',
       image: ''
-    },
-    {
-      name: 'Dr. Vinayak Anand Kamat',
-      role: 'H.O.D & Lecturer in Physics',
-      department: 'Teaching Staff',
-      image: '/images/vinayak.jpeg'
     },
     {
       name: 'Mr. B.H. Nadaf',
