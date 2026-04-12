@@ -274,7 +274,7 @@ const HomePage = () => {
       image: '/images/B-H-Nadaf.jpeg'
     },
     {
-      name: 'Dr. D. S. Prabhu',
+      name: 'Dr. Devidas S. Prabhu',
       role: 'H.O.D & Assistant Professor in Economics',
       department: 'Teaching Staff',
       image: '/images/prabu sir.jpg'
@@ -370,6 +370,12 @@ const HomePage = () => {
       image: ''
     },
     {
+      name: 'Mrs. Bibi Suhela',
+      role: 'Lecturer in Kannada',
+      department: 'Teaching Staff',
+      image: ''
+    },
+    {
       name: 'Ms. Maimunnisa',
       role: 'Lecturer in Mathematics',
       department: 'Teaching Staff',
@@ -391,7 +397,7 @@ const HomePage = () => {
     },
     {
       name: 'Mr. Mohammed Muzammil',
-      role: 'S.D.A',
+      role: 'S.D.C',
       department: 'Non-Teaching Staff',
       image: '/images/Muzammil.jpg'
     },
@@ -403,19 +409,19 @@ const HomePage = () => {
     },
     {
       name: 'Ms. Kadru Nusrath',
-      role: 'Office',
+      role: 'S.D.C',
       department: 'Non-Teaching Staff',
       image: ''
     },
     {
       name: 'Mr. Afzal G. Jamadar',
-      role: 'Head Librarian',
+      role: 'Librarian',
       department: 'Non-Teaching Staff',
       image: '/images/Afzal-G-Jamadar.jpeg'
     },
     {
       name: 'Mr. Mohammed Ameer',
-      role: 'Assistant Librarian',
+      role: 'Library Attender',
       department: 'Non-Teaching Staff',
       image: ''
     },
