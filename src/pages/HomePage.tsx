@@ -23,6 +23,18 @@ const HomePage = () => {
       subtitle: 'Excellence in Education Since 1968',
       description: 'Empowering students through quality education and holistic development'
     },
+    {
+      image: '/images/BA.jpg',
+      title: 'ADMISSION OPEN FOR B.A ACADEMIC YEAR 2026-27',
+      subtitle: 'Excellence in Education Since 1968',
+      description: ''
+    },
+    {
+      image: '/images/Bsc.jpg',
+      title: 'ADMISSION OPEN FOR B.sc ACADEMIC YEAR 2026-27',
+      subtitle: 'Excellence in Education Since 1968',
+      description: ''
+    },
 
      {
       image: '/images/principal.jpg',
