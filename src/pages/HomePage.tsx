@@ -256,28 +256,52 @@ const HomePage = () => {
       image: '/images/MOHAMMED-HIBBAN.jpg'
     },
     {
-      name: 'Mr. Aftab G.M',
-      role: 'Lecturer in Commerce',
+      name: 'Mr. Manjunath Prabhu',
+      role: 'H.O.D & Lecturer in Commerce',
       department: 'Teaching Staff',
-      image: '/images/12.-AFTAB.jpg'
+      image: ''
     },
     {
-      name: 'Mr.Mohammed Ganim Mohtisham',
+      name: 'Mr. Mohammed Ganim Mohtisham',
       role: 'S.W.O & Lecturer in Commerce',
       department: 'Teaching Staff',
       image: '/images/MOHD-GANIM.jpeg'
-    },
-    {
-      name: 'Ms. Fathima Famina',
-      role: 'Lecturer in Economics',
-      department: 'Teaching Staff',
-      image: ''
     },
     {
       name: 'Dr. D. S. Prabhu',
       role: 'H.O.D & Assistant Professor in Economics',
       department: 'Teaching Staff',
       image: '/images/prabu sir.jpg'
+    },
+    {
+      name: 'Mr.Umesh Mestha',
+      role: 'H.O.D & Lecturer in Computer Science',
+      department: 'Teaching Staff',
+      image: '/images/UMESH-MESTHA.jpeg'
+    },
+    {
+      name: 'Mr. Rauoof Ahmed Savanur',
+      role: 'H.O.D & Lecturer in Urdu',
+      department: 'Teaching Staff',
+      image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'
+    },
+    {
+      name: 'Mr. Aftab G.M',
+      role: 'Lecturer in Commerce',
+      department: 'Teaching Staff',
+      image: '/images/12.-AFTAB.jpg'
+    },
+    {
+      name: 'Mr. Shazeer Hussain',
+      role: 'Web Developer, H.O.D & Lecturer in English',
+      department: 'Teaching Staff',
+      image: '/images/Shazeer-Hussain.jpg'
+    },
+    {
+      name: 'Ms. Fathima Famina',
+      role: 'Lecturer in Economics',
+      department: 'Teaching Staff',
+      image: ''
     },
     {
       name: 'Mr. Radhakrishna Shet',
@@ -333,12 +357,6 @@ const HomePage = () => {
       department: 'Teaching Staff',
       image: ''
     },
-    {
-      name: 'Mr.Umesh Mestha',
-      role: 'H.O.D & Lecturer in Computer Science',
-      department: 'Teaching Staff',
-      image: '/images/UMESH-MESTHA.jpeg'
-    },
      {
       name: 'Mr. Damodar Naik',
       role: 'H.O.D & Lecturer in Kannada',
@@ -350,18 +368,6 @@ const HomePage = () => {
       role: 'Lecturer in Kannada',
       department: 'Teaching Staff',
       image: ''
-    },
-     {
-      name: 'Mr. Shazeer Hussain',
-      role: 'Web Developer, H.O.D & Lecturer in English',
-      department: 'Teaching Staff',
-      image: '/images/Shazeer-Hussain.jpg'
-    },
-     {
-      name: 'Mr. Rauoof Ahmed Savanur',
-      role: 'H.O.D & Lecturer in Urdu',
-      department: 'Teaching Staff',
-      image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'
     },
      {
       name: 'Maulana Danish Nadvi',
