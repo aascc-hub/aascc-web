@@ -268,7 +268,7 @@ const HomePage = () => {
       image: '/images/MOHD-GANIM.jpeg'
     },
     {
-      name: 'Mr. B.H. Nadaf',
+      name: 'Mr. B. H. Nadaf',
       role: 'H.O.D & Associate Professor in Mathematics',
       department: 'Teaching Staff',
       image: '/images/B-H-Nadaf.jpeg'
@@ -280,7 +280,7 @@ const HomePage = () => {
       image: '/images/prabu sir.jpg'
     },
     {
-      name: 'Mr.Umesh Mestha',
+      name: 'Mr. Umesh Mestha',
       role: 'H.O.D & Lecturer in Computer Science',
       department: 'Teaching Staff',
       image: '/images/UMESH-MESTHA.jpeg'
@@ -358,7 +358,7 @@ const HomePage = () => {
       image: '/images/poornima.jpeg'
     },
     {
-      name: 'Mrs. Bibi Noora ',
+      name: 'Mrs. Bibi Noora Kasma',
       role: 'Lecturer in Botany ',
       department: 'Teaching Staff',
       image: ''
@@ -377,7 +377,7 @@ const HomePage = () => {
     },
      {
       name: 'Maulana Danish Nadvi',
-      role: ' Lecturer in Arabic',
+      role: 'Lecturer in Arabic',
       department: 'Teaching Staff',
       image: ''
     },
@@ -409,13 +409,13 @@ const HomePage = () => {
     },
     {
       name: 'Mr. Afzal G. Jamadar',
-      role: 'Librarian',
+      role: 'Head Librarian',
       department: 'Non-Teaching Staff',
       image: '/images/Afzal-G-Jamadar.jpeg'
     },
     {
       name: 'Mr. Mohammed Ameer',
-      role: 'Librarian',
+      role: 'Assistant Librarian',
       department: 'Non-Teaching Staff',
       image: ''
     },
@@ -432,13 +432,13 @@ const HomePage = () => {
       image: '/images/Mulla.jpg'
     },
     {
-      name: 'Mr.Maqbool Ahmed',
+      name: 'Mr. Maqbool Ahmed',
       role: 'Peon',
       department: 'Non-Teaching Staff',
       image: '/images/Maqbool.jpeg'
     },
     {
-      name: 'Mr.Fakhruddin',
+      name: 'Mr. Fakhruddin',
       role: 'Gardener',
       department: 'Non-Teaching Staff',
       image: '/images/Fakhruddin.jpeg'
