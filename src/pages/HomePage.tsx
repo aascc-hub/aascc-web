@@ -268,6 +268,12 @@ const HomePage = () => {
       image: '/images/MOHD-GANIM.jpeg'
     },
     {
+      name: 'Mr. B.H. Nadaf',
+      role: 'H.O.D & Associate Professor in Mathematics',
+      department: 'Teaching Staff',
+      image: '/images/B-H-Nadaf.jpeg'
+    },
+    {
       name: 'Dr. D. S. Prabhu',
       role: 'H.O.D & Assistant Professor in Economics',
       department: 'Teaching Staff',
@@ -316,16 +322,16 @@ const HomePage = () => {
       image: '/images/damodar.jpg'
     },
     {
-      name: 'Ms. Fathima Famina',
-      role: 'Lecturer in Economics',
-      department: 'Teaching Staff',
-      image: ''
-    },
-    {
       name: 'Mr. Abdul Rehman Muneeb',
       role: 'H.O.D & Lecturer in Chemistry',
       department: 'Teaching Staff',
       image: '/images/MUNEEB-KADLI.jpeg'
+    },
+    {
+      name: 'Ms. Fathima Famina',
+      role: 'Lecturer in Economics',
+      department: 'Teaching Staff',
+      image: ''
     },
     {
       name: 'Mr. K. Kaleemulla',
@@ -338,12 +344,6 @@ const HomePage = () => {
       role: 'Lecturer in Chemistry',
       department: 'Teaching Staff',
       image: ''
-    },
-    {
-      name: 'Mr. B.H. Nadaf',
-      role: 'H.O.D & Associate Professor in Mathematics',
-      department: 'Teaching Staff',
-      image: '/images/B-H-Nadaf.jpeg'
     },
     {
       name: 'Mrs. Pavitra R. Naik',
@@ -366,6 +366,12 @@ const HomePage = () => {
      {
       name: 'Mrs. Niha',
       role: 'Lecturer in Kannada',
+      department: 'Teaching Staff',
+      image: ''
+    },
+    {
+      name: 'Ms. Maimunnisa',
+      role: 'Lecturer in Mathematics',
       department: 'Teaching Staff',
       image: ''
     },
@@ -396,6 +402,12 @@ const HomePage = () => {
       image: '/images/Mohammed-Zayan.jpeg'
     },
     {
+      name: 'Ms. Kadru Nusrath',
+      role: 'Office',
+      department: 'Non-Teaching Staff',
+      image: ''
+    },
+    {
       name: 'Mr. Afzal G. Jamadar',
       role: 'Librarian',
       department: 'Non-Teaching Staff',
@@ -408,13 +420,13 @@ const HomePage = () => {
       image: ''
     },
     {
-      name: 'Mr.Mohammad Saleem',
+      name: 'Mr. Mohammad Saleem',
       role: 'Attender',
       department: 'Non-Teaching Staff',
       image: '/images/Mohammed-Saleem.jpeg'
     },
     {
-      name: 'Mr.A. A. Mulla',
+      name: 'Mr. A. A. Mulla',
       role: 'Attender',
       department: 'Non-Teaching Staff',
       image: '/images/Mulla.jpg'
