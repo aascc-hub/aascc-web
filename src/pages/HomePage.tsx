@@ -304,8 +304,8 @@ const HomePage = () => {
       image: '/images/MUNEEB-KADLI.jpeg'
     },
     {
-      name: 'Mr. Dr. Vinayak Anand Kamat',
-      role: 'N.C.C Officer & Lecturer in Physics',
+      name: 'Dr. Vinayak Anand Kamat',
+      role: 'H.O.D & Lecturer in Physics',
       department: 'Teaching Staff',
       image: '/images/vinayak.jpeg'
     },
@@ -316,8 +316,8 @@ const HomePage = () => {
       image: '/images/B-H-Nadaf.jpeg'
     },
     {
-      name: 'Ms. M. Poornima',
-      role: 'Assistant Professor',
+      name: 'Mrs. M. Poornima',
+      role: 'Lecturer in Botany',
       department: 'Teaching Staff',
       image: '/images/poornima.jpeg'
     },
@@ -340,20 +340,20 @@ const HomePage = () => {
       image: '/images/damodar.jpg'
     },
      {
-      name: 'Ms. Niha',
+      name: 'Mrs. Niha',
       role: 'Lecturer in Kannada',
       department: 'Teaching Staff',
       image: ''
     },
      {
       name: 'Mr. Shazeer Hussain',
-      role: 'H.O.D & Lecturer in English',
+      role: 'Web Developer, H.O.D & Lecturer in English',
       department: 'Teaching Staff',
       image: '/images/Shazeer-Hussain.jpg'
     },
      {
       name: 'Mr. Rauoof Ahmed Savanur',
-      role: 'H.O.D & Lecturer in urdu',
+      role: 'H.O.D & Lecturer in Urdu',
       department: 'Teaching Staff',
       image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'
     },
