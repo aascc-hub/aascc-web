@@ -292,12 +292,6 @@ const HomePage = () => {
       image: '/images/Pavitra-R-Naik.jpeg'
     },
     {
-      name: 'Ms. Hema Poojari',
-      role: 'Lecturer in Economics',
-      department: 'Teaching Staff',
-      image: '/images/Hema-Poojari.jpg'
-    },
-    {
       name: 'Mr. K. Kaleemulla',
       role: 'Physical Education Director & Rovers Scout Leader',
       department: 'Teaching Staff',
