@@ -157,7 +157,7 @@ const HomePage = () => {
     },
     {
       title: 'Bachelor of Science',
-      abbreviation: 'Bsc',
+      abbreviation: 'B.Sc',
       description: 'In-depth science programs with hands-on laboratory experience',
       image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       duration: '3 Years',
@@ -247,7 +247,7 @@ const HomePage = () => {
 
   const stats = [
     { number: '500+', label: 'Students Enrolled', icon: Users },
-    { number: '30+', label: 'Years of Excellence', icon: Award },
+    { number: '55+', label: 'Years of Excellence', icon: Award },
     { number: '18', label: 'University Toppers', icon: Trophy },
     { number: '23+', label: 'Faculty Members', icon: BookOpen }
   ];
@@ -291,7 +291,7 @@ const HomePage = () => {
       image: '/images/prabu sir.jpg'
     },
     {
-      name: 'Mr. Radhakrishna Sheta',
+      name: 'Mr. Radhakrishna Shet',
       role: 'Lecturer in History',
       department: 'Teaching Staff',
       image: '/images/Radhakrishna.jpeg'

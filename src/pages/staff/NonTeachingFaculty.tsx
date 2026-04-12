@@ -7,17 +7,18 @@ const NonTeachingStaff = () => {
     {
       category: 'Non-Teaching Staff',
       staff: [
-        { name: 'Mr. Jayadeep Shinde', designation: 'S.D.A', qualification: 'Diploma in Automobile Engg.', email: '', phone: '', image: '/images/Jayadeep.jpeg' },
-        { name: 'Mr. Vinod Shetty', designation: 'F.D.A', qualification: 'B.Sc, B.Ed, (M.Sc)', email: '', phone: '', image: '/images/Vinod-Shetty.jpg' },
+        { name: 'Mr. Jayadeep Shinde', designation: 'S.D.A', qualification: 'Diploma in Automobile Eng.', email: '', phone: '', image: '/images/Jayadeep.jpeg' },
         { name: 'Mr. Mohammed Muzammil', designation: 'S.D.A', qualification: 'BBA', image: '/images/Muzammil.jpg' },
+        { name: 'Ms. Kadru Nusrath', designation: 'S.D.C', qualification: 'B.Com', email: '', phone: '', image: '/images/' },
         { name: 'Mr. Mohammed Zayan', designation: 'Accountant', qualification: 'BBA', email: '', phone: '', image: '/images/Mohammed-Zayan.jpeg' },
+        { name: 'Mr. K. Kaleemulla', designation: 'Physical Education Director & Rovers Scout Leader', qualification: 'M.P.Ed, M.Phil', email: '', phone: '', image: '/images/Kaleemulla.jpg' },
         { name: 'Mr. Afzal G. Jamadar', designation: 'Librarian', qualification: 'M.L.I.Sc, M.Phil', email: '', phone: '', image: '/images/Afzal-G-Jamadar.jpeg' },
         { name: 'Mr. Mohammad Saleem', designation: 'Attender', qualification: 'B.A', email: '', phone: '', image: '/images/Mohammed-Saleem.jpeg' },
         { name: 'Mr. A. A. Mulla', designation: 'Attender', qualification: 'SSLC', email: '', phone: '', image: '/images/Mulla.jpg' },
         { name: 'Mr. Maqbool Ahmed', designation: 'Peon', qualification: 'SSLC', email: '', phone: '', image: '/images/Maqbool.jpeg' },
-        { name: 'Mr. Fakhruddin', designation: 'Gardner', qualification: 'PUC', email: '', phone: '', image: '/images/Fakhruddin.jpeg' },
-        { name: 'Ms.Mastamma Moger', designation: 'Sweeper', qualification: '', email: '', phone: '', image: '/images/mastamma moger.png' },
-        { name: 'Ms.Padmavati Moger', designation: 'Sweeper', qualification: '', email: '', phone: '', image: '/images/padmavati moger.png' },
+        { name: 'Mr. Fakruddin', designation: 'Gardener', qualification: 'PUC', email: '', phone: '', image: '/images/Fakhruddin.jpeg' },
+        { name: 'Mrs.Mastamma Moger', designation: 'Sweeper', qualification: '', email: '', phone: '', image: '/images/mastamma moger.png' },
+        { name: 'Mrs.Padmavati Moger', designation: 'Sweeper', qualification: '', email: '', phone: '', image: '/images/padmavati moger.png' },
       ]
     },
   ];
