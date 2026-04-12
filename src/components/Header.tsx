@@ -53,6 +53,7 @@ const Header = () => {
       ]
     },
     { name: 'Governing Bodies', path: '/about/management' },
+    { name: 'NAAC', path: '' },
     { name: 'Gallery', path: '/gallery' },
     {
       name: 'Student Corner',

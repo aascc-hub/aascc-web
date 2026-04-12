@@ -6,12 +6,12 @@ import HeroSection from '../components/home/HeroSection';
 import StatsSection from '../components/home/StatsSection';
 import AnnouncementsSection from '../components/home/AnnouncementsSection';
 import EventsSection from '../components/home/EventsSection';
-
+import AdmissionBanners from '../components/AdmissionBanners';
 import GallerySection from '../components/home/GallerySection';
 import ProgramsSection from '../components/home/ProgramsSection';
 import BannerSection from '../components/home/BannerSection';
 // import TestimonialsSection from '../components/home/TestimonialsSection';
-import PlacementsSection from '../components/home/PlacementsSection';
+import PlacementsSection from '../components/home/PlacementsSection';   
 import StaffSection from '../components/home/StaffSection';
 
 const HomePage = () => {
@@ -23,6 +23,7 @@ const HomePage = () => {
       subtitle: 'Excellence in Education Since 1968',
       description: 'Empowering students through quality education and holistic development'
     },
+   
 
      {
       image: '/images/principal.jpg',
@@ -70,8 +71,8 @@ const HomePage = () => {
   ];
 
   const announcements = [
-    { date: '2024-01-15', title: 'Admission Open for Academic Year 2025-26', type: 'admission' },
-    { date: '2024-01-10', title: 'Annual Sports Meet - February 2024', type: 'event' },
+    { date: '2024-01-15', title: 'Admission Open for Academic Year 2026-27', type: 'admission' },
+    { date: '2024-01-10', title: 'Annual Sports Meet - February 2025', type: 'event' },
     { date: '2024-01-08', title: 'Mid-term Examination Schedule Released', type: 'academic' },
     { date: '2024-01-05', title: 'Research Conference on Sustainability', type: 'research' },
     { date: '2024-01-02', title: 'Library Extended Hours During Exams', type: 'facility' }
@@ -432,29 +433,31 @@ const HomePage = () => {
 
 
 
-  return (
+ return (
     <div className="min-h-screen">
+      {/* 1. Top of Page */}
       <HeroSection slides={slides} />
-
-      <StatsSection stats={stats} />
-
+       <StatsSection stats={stats} />
+      
+      
+      {/* 2. Key Information */}
+       <AdmissionBanners /> 
       <AnnouncementsSection announcements={announcements} />
-
       <EventsSection allEvents={allEvents} />
 
+      {/* 3. Visuals & Content */}
       <BannerSection />
-
       <GallerySection campusHighlights={campusHighlights} />
-
       <ProgramsSection featuredPrograms={featuredPrograms} />
 
+      {/* 4. Social Proof & Faculty */}
       {/* <TestimonialsSection testimonials={testimonials} /> */}
-       <PlacementsSection placedStudents={placedStudents} recruitingCompanies={recruitingCompanies}  />
-     
-
+      <PlacementsSection 
+        placedStudents={placedStudents} 
+        recruitingCompanies={recruitingCompanies}  
+      />
       <StaffSection staff={staff} />
     </div>
   );
 };
-
 export default HomePage;
