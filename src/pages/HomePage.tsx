@@ -292,10 +292,22 @@ const HomePage = () => {
       image: '/images/12.-AFTAB.jpg'
     },
     {
+      name: 'Mr. Radhakrishna Shet',
+      role: 'H.O.D & Lecturer in History',
+      department: 'Teaching Staff',
+      image: '/images/Radhakrishna.jpeg'
+    },
+    {
       name: 'Mr. Shazeer Hussain',
       role: 'Web Developer, H.O.D & Lecturer in English',
       department: 'Teaching Staff',
       image: '/images/Shazeer-Hussain.jpg'
+    },
+    {
+      name: 'Mr. Damodar Naik',
+      role: 'H.O.D & Lecturer in Kannada',
+      department: 'Teaching Staff',
+      image: '/images/damodar.jpg'
     },
     {
       name: 'Ms. Fathima Famina',
@@ -304,28 +316,16 @@ const HomePage = () => {
       image: ''
     },
     {
-      name: 'Mr. Radhakrishna Shet',
-      role: 'H.O.D & Lecturer in History',
+      name: 'Mr. Abdul Rehman Muneeb',
+      role: 'H.O.D & Lecturer in Chemistry',
       department: 'Teaching Staff',
-      image: '/images/Radhakrishna.jpeg'
-    },
-    {
-      name: 'Ms. Pavitra R. Naik',
-      role: 'Lecturer in Sociology',
-      department: 'Teaching Staff',
-      image: '/images/Pavitra-R-Naik.jpeg'
+      image: '/images/MUNEEB-KADLI.jpeg'
     },
     {
       name: 'Mr. K. Kaleemulla',
       role: 'Physical Education Director & Rovers Scout Leader',
       department: 'Teaching Staff',
       image: '/images/Kaleemulla.jpg'
-    },
-    {
-      name: 'Mr. Abdul Rehman Muneeb',
-      role: 'H.O.D & Lecturer in Chemistry',
-      department: 'Teaching Staff',
-      image: '/images/MUNEEB-KADLI.jpeg'
     },
     {
       name: 'Mr. Harsha Shreedhara Shetty',
@@ -346,6 +346,12 @@ const HomePage = () => {
       image: '/images/B-H-Nadaf.jpeg'
     },
     {
+      name: 'Mrs. Pavitra R. Naik',
+      role: 'Lecturer in Sociology',
+      department: 'Teaching Staff',
+      image: '/images/Pavitra-R-Naik.jpeg'
+    },
+    {
       name: 'Mrs. M. Poornima',
       role: 'Lecturer in Botany',
       department: 'Teaching Staff',
@@ -356,12 +362,6 @@ const HomePage = () => {
       role: 'Lecturer in Botany ',
       department: 'Teaching Staff',
       image: ''
-    },
-     {
-      name: 'Mr. Damodar Naik',
-      role: 'H.O.D & Lecturer in Kannada',
-      department: 'Teaching Staff',
-      image: '/images/damodar.jpg'
     },
      {
       name: 'Mrs. Niha',
