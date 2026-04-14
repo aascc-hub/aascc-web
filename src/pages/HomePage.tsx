@@ -244,15 +244,51 @@ const HomePage = () => {
     // Teaching Staff (16 members)
     {
       name: 'Prof. Mohammed Yusuf Kola',
-      role: 'Principal',
+      role: 'Principal, Lecturer in Commerce',
       department: 'Teaching Staff',
       image: '/images/principal.jpg'
     },
     {
       name: 'Mr. Mohammad Hibban',
-      role: 'Vice-Principal',
+      role: 'Vice-Principal, Lecturer in Commerce',
       department: 'Teaching Staff',
       image: '/images/MOHAMMED-HIBBAN.jpg'
+    },
+    {
+      name: 'Mr. Manjunath Prabhu',
+      role: 'H.O.D & Lecturer in Commerce',
+      department: 'Teaching Staff',
+      image: ''
+    },
+    {
+      name: 'Mr. Mohammed Ganim Mohtisham',
+      role: 'S.W.O & Lecturer in Commerce',
+      department: 'Teaching Staff',
+      image: '/images/MOHD-GANIM.jpeg'
+    },
+    {
+      name: 'Mr. B. H. Nadaf',
+      role: 'H.O.D & Associate Professor in Mathematics',
+      department: 'Teaching Staff',
+      image: '/images/B-H-Nadaf.jpeg'
+    },
+    {
+      name: 'Dr. Devidas S. Prabhu',
+      role: 'H.O.D & Assistant Professor in Economics',
+      department: 'Teaching Staff',
+      image: '/images/prabu sir.jpg'
+    },
+    {
+      name: 'Mr. Umesh Mestha',
+      role: 'H.O.D & Lecturer in Computer Science',
+      department: 'Teaching Staff',
+      image: '/images/UMESH-MESTHA.jpeg'
+    },
+    {
+      name: 'Mr. Rauoof Ahmed Savanur',
+      role: 'H.O.D & Lecturer in Urdu',
+      department: 'Teaching Staff',
+      image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'
     },
     {
       name: 'Mr. Aftab G.M',
@@ -261,10 +297,34 @@ const HomePage = () => {
       image: '/images/12.-AFTAB.jpg'
     },
     {
-      name: 'Mr.Mohammed Ganim Mohtisham',
-      role: 'S.W.O & Lecturer in Commerce',
+      name: 'Mr. Radhakrishna Shet',
+      role: 'H.O.D & Lecturer in History',
       department: 'Teaching Staff',
-      image: '/images/MOHD-GANIM.jpeg'
+      image: '/images/Radhakrishna.jpeg'
+    },
+    {
+      name: 'Dr. Vinayak Anand Kamat',
+      role: 'H.O.D & Lecturer in Physics',
+      department: 'Teaching Staff',
+      image: '/images/vinayak.jpeg'
+    },
+    {
+      name: 'Mr. Shazeer Hussain',
+      role: 'Web Developer, H.O.D & Lecturer in English',
+      department: 'Teaching Staff',
+      image: '/images/Shazeer-Hussain.jpg'
+    },
+    {
+      name: 'Mr. Damodar Naik',
+      role: 'H.O.D & Lecturer in Kannada',
+      department: 'Teaching Staff',
+      image: '/images/damodar.jpg'
+    },
+    {
+      name: 'Mr. Abdul Rehman Muneeb',
+      role: 'H.O.D & Lecturer in Chemistry',
+      department: 'Teaching Staff',
+      image: '/images/MUNEEB-KADLI.jpeg'
     },
     {
       name: 'Ms. Fathima Famina',
@@ -273,98 +333,56 @@ const HomePage = () => {
       image: ''
     },
     {
-      name: 'Dr. D. S. Prabhu',
-      role: 'H.O.D & Assistant Professor in Economics',
-      department: 'Teaching Staff',
-      image: '/images/prabu sir.jpg'
-    },
-    {
-      name: 'Mr. Radhakrishna Shet',
-      role: 'Lecturer in History',
-      department: 'Teaching Staff',
-      image: '/images/Radhakrishna.jpeg'
-    },
-    {
-      name: 'Ms. Pavitra R. Naik',
-      role: 'Lecturer in Sociology',
-      department: 'Teaching Staff',
-      image: '/images/Pavitra-R-Naik.jpeg'
-    },
-    {
-      name: 'Ms. Hema Poojari',
-      role: 'Lecturer in Economics',
-      department: 'Teaching Staff',
-      image: '/images/Hema-Poojari.jpg'
-    },
-    {
       name: 'Mr. K. Kaleemulla',
       role: 'Physical Education Director & Rovers Scout Leader',
       department: 'Teaching Staff',
       image: '/images/Kaleemulla.jpg'
     },
     {
-      name: 'Prof. Abdul Rehman Muneeb',
-      role: 'H.O.D & Lecturer in Chemistry',
+      name: 'Mr. Harsha Shreedhara Shetty',
+      role: 'Lecturer in Chemistry',
       department: 'Teaching Staff',
-      image: '/images/MUNEEB-KADLI.jpeg'
+      image: ''
     },
     {
-      name: 'Mr. Dr. Vinayak Anand Kamat',
-      role: 'N.C.C Officer & Lecturer in Physics',
+      name: 'Mrs. Pavitra R. Naik',
+      role: 'Lecturer in Sociology',
       department: 'Teaching Staff',
-      image: '/images/vinayak.jpeg'
+      image: '/images/Pavitra-R-Naik.jpeg'
     },
     {
-      name: 'Mr. B.H. Nadaf',
-      role: 'Associate Professor in Mathematics',
-      department: 'Teaching Staff',
-      image: '/images/B-H-Nadaf.jpeg'
-    },
-    {
-      name: 'Ms. M. Poornima',
-      role: 'Assistant Professor',
+      name: 'Mrs. M. Poornima',
+      role: 'Lecturer in Botany',
       department: 'Teaching Staff',
       image: '/images/poornima.jpeg'
     },
     {
-      name: 'Ms. Bibi Noora ',
+      name: 'Mrs. Bibi Noora Kasma',
       role: 'Lecturer in Botany ',
       department: 'Teaching Staff',
       image: ''
     },
-    {
-      name: 'Mr.Umesh Mestha',
-      role: 'H.O.D & Lecturer in Computer Science',
-      department: 'Teaching Staff',
-      image: '/images/UMESH-MESTHA.jpeg'
-    },
      {
-      name: 'Mr. Damodar Naik',
-      role: 'Lecturer in Kannada',
-      department: 'Teaching Staff',
-      image: '/images/damodar.jpg'
-    },
-     {
-      name: 'Ms. Niha',
+      name: 'Mrs. Niha',
       role: 'Lecturer in Kannada',
       department: 'Teaching Staff',
       image: ''
     },
-     {
-      name: 'Mr. Shazeer Hussain',
-      role: 'H.O.D & Lecturer in English',
+    {
+      name: 'Mrs. Bibi Suhela',
+      role: 'Lecturer in Kannada',
       department: 'Teaching Staff',
-      image: '/images/Shazeer-Hussain.jpg'
+      image: ''
+    },
+    {
+      name: 'Ms. Maimunnisa',
+      role: 'Lecturer in Mathematics',
+      department: 'Teaching Staff',
+      image: ''
     },
      {
-      name: 'Mr. Rauoof Ahmed Savanur',
-      role: 'H.O.D & Lecturer in urdu',
-      department: 'Teaching Staff',
-      image: '/images/RAUOOF-AHMED-SAVANUR.jpeg'
-    },
-     {
-      name: 'Maulana danish Nadvi',
-      role: ' Lecturer in Arabic',
+      name: 'Maulana Danish Nadvi',
+      role: 'Lecturer in Arabic',
       department: 'Teaching Staff',
       image: ''
     },
@@ -377,14 +395,8 @@ const HomePage = () => {
       image: '/images/Jayadeep.jpeg'
     },
     {
-      name: 'Mr. Vinod Shetty',
-      role: 'F.D.A',
-      department: 'Non-Teaching Staff',
-      image: '/images/Vinod-Shetty.jpg'
-    },
-    {
       name: 'Mr. Mohammed Muzammil',
-      role: 'S.D.A',
+      role: 'S.D.C',
       department: 'Non-Teaching Staff',
       image: '/images/Muzammil.jpg'
     },
@@ -395,32 +407,44 @@ const HomePage = () => {
       image: '/images/Mohammed-Zayan.jpeg'
     },
     {
+      name: 'Ms. Kadru Nusrath',
+      role: 'S.D.C',
+      department: 'Non-Teaching Staff',
+      image: ''
+    },
+    {
       name: 'Mr. Afzal G. Jamadar',
       role: 'Librarian',
       department: 'Non-Teaching Staff',
       image: '/images/Afzal-G-Jamadar.jpeg'
     },
     {
-      name: 'Mr.Mohammad Saleem',
+      name: 'Mr. Mohammed Ameer',
+      role: 'Library Attender',
+      department: 'Non-Teaching Staff',
+      image: ''
+    },
+    {
+      name: 'Mr. Mohammad Saleem',
       role: 'Attender',
       department: 'Non-Teaching Staff',
       image: '/images/Mohammed-Saleem.jpeg'
     },
     {
-      name: 'Mr.A. A. Mulla',
+      name: 'Mr. A. A. Mulla',
       role: 'Attender',
       department: 'Non-Teaching Staff',
       image: '/images/Mulla.jpg'
     },
     {
-      name: 'Mr.Maqbool Ahmed',
+      name: 'Mr. Maqbool Ahmed',
       role: 'Peon',
       department: 'Non-Teaching Staff',
       image: '/images/Maqbool.jpeg'
     },
     {
-      name: 'Mr.Fakhruddin',
-      role: 'Gardner',
+      name: 'Mr. Fakhruddin',
+      role: 'Gardener',
       department: 'Non-Teaching Staff',
       image: '/images/Fakhruddin.jpeg'
     }

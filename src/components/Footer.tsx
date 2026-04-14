@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-blue-200 text-sm leading-relaxed">
-              Anjuman Arts, Science and Commerce college, Bhatkal is committed to providing quality education and fostering academic excellence. 
+              Anjuman Arts, Science and Commerce College, Bhatkal is committed to providing quality education and fostering academic excellence. 
               We prepare students for successful careers and responsible citizenship.
             </p>
             <div className="flex space-x-3">
@@ -97,7 +97,7 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-yellow-500 mt-1 flex-shrink-0" />
                 <p className="text-blue-200 text-sm">
-                   AASCC, AnjumanAbad, Bhatkal -
+                   AASCC, Anjumanabad, Bhatkal -
                   581320
                 </p>
               </div>
