@@ -6,7 +6,6 @@ import HeroSection from '../components/home/HeroSection';
 import StatsSection from '../components/home/StatsSection';
 import AnnouncementsSection from '../components/home/AnnouncementsSection';
 import EventsSection from '../components/home/EventsSection';
-import AdmissionBanners from '../components/AdmissionBanners';
 import GallerySection from '../components/home/GallerySection';
 import ProgramsSection from '../components/home/ProgramsSection';
 import BannerSection from '../components/home/BannerSection';
@@ -441,7 +440,6 @@ const HomePage = () => {
       
       
       {/* 2. Key Information */}
-       <AdmissionBanners /> 
       <AnnouncementsSection announcements={announcements} />
       <EventsSection allEvents={allEvents} />
 
