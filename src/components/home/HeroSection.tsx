@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 
 interface Slide {
-  image: string;
+  image?: string;
+  video?: string;
   title: string;
   subtitle: string;
   description: string;

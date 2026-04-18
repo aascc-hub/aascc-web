@@ -1,7 +1,5 @@
 import { allEvents } from '../data/events';
 import { Users, Award, Trophy, BookOpen } from 'lucide-react';
-
-
 import HeroSection from '../components/home/HeroSection';
 import StatsSection from '../components/home/StatsSection';
 import AnnouncementsSection from '../components/home/AnnouncementsSection';
@@ -16,6 +14,14 @@ import StaffSection from '../components/home/StaffSection';
 const HomePage = () => {
 
   const slides = [
+
+  //   {
+  //   video: '/videos/Drone_shot.mp4', // Use %20 for the space in the filename
+  //   title: 'Anjuman Arts, Science & Commerce College, Bhatkal',
+  //   subtitle: 'Excellence in Education Since 1968',
+  //   description: 'Empowering students through quality education and holistic development'
+  // },
+ 
     {
       image: '/images/clg2.png',
       title: 'Anjuman Arts, Science & Commerce College, Bhatkal',
@@ -70,8 +76,8 @@ const HomePage = () => {
   ];
 
   const announcements = [
-    { date: '2024-01-15', title: 'Admission Open for Academic Year 2026-27', type: 'admission' },
-    { date: '2024-01-10', title: 'Annual Sports Meet - February 2025', type: 'event' },
+    { date: '2026-04-10', title: 'Admission Open for Academic Year 2026-27', type: 'admission' },
+    { date: '2025-01-10', title: 'Annual Sports Meet - February 2025', type: 'event' },
     { date: '2024-01-08', title: 'Mid-term Examination Schedule Released', type: 'academic' },
     { date: '2024-01-05', title: 'Research Conference on Sustainability', type: 'research' },
     { date: '2024-01-02', title: 'Library Extended Hours During Exams', type: 'facility' }

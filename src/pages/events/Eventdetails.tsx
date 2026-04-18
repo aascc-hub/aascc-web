@@ -115,14 +115,10 @@ const EventDetails: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="mb-8">
+               <div className="mb-8">
                   <h2 className="text-2xl font-bold text-blue-900 mb-4">About This Event</h2>
-                  <p className="text-gray-700 text-lg leading-relaxed">
-                    Join us for an exciting {event.category.toLowerCase()} event that promises to be both educational and engaging.
-                    Fuziona is the premier inter-collegiate cultural and academic fest organized by
-                    Anjuman Arts, Science, Commerce College and PG Centre, Bhatkal. It serves as a
-                    dynamic platform for students to showcase their talents across 13+ diverse
-                    competitions, ranging from literary debates to cultural performances.
+                  <p className="text-gray-700 text-lg leading-relaxed whitespace-pre-line">
+                    {event.description || `Join us for an exciting ${event.category.toLowerCase()} event that promises to be both educational and engaging.`}
                   </p>
                 </div>
 
@@ -136,19 +132,29 @@ const EventDetails: React.FC = () => {
                     </ul>
                   </div>
 
-                  <div className="bg-green-50 p-6 rounded-lg">
+                   <div className="bg-green-50 p-6 rounded-lg">
                     <h3 className="text-xl font-semibold text-green-900 mb-3">What to Expect</h3>
                     <ul className="space-y-2 text-gray-700">
-                      <li>• Diverse Competitions</li>
-                      <li>• Cultural Showcase</li>
-                      <li>• Refreshments provided</li>
-                      <li>• Certificate of participation</li>
-                      <li>• Skill Testing</li>
+                      {event.id === 2 ? (
+                        <>
+                          <li>• Specialist Consultations</li>
+                          <li>• Cancer Awareness Session</li>
+                          <li>• Free Health Screening</li>
+                          <li>• Expert Medical Advice</li>
+                          <li>• Professional Guidance</li>
+                        </>
+                      ) : (
+                        <>
+                          <li>• Diverse Competitions</li>
+                          <li>• Cultural Showcase</li>
+                          <li>• Refreshments provided</li>
+                          <li>• Certificate of participation</li>
+                          <li>• Skill Testing</li>
+                        </>
+                      )}
                     </ul>
                   </div>
                 </div>
-
-              
               </>
             ) : (
               <>
