@@ -2,6 +2,7 @@ export interface GalleryImage {
   image: string;
   title: string;
   category: string;
+  // description?: string;
 }
 
 export const galleryImages: GalleryImage[] = [
@@ -25,6 +26,15 @@ export const galleryImages: GalleryImage[] = [
     title: 'Event Celebration',
     category: 'Events'
   },
+  
+  {
+    image: '/images/Press.jpg',
+    title: 'press release on the scheduled health camp on the Apr 19th',
+    category: 'Events',
+   
+
+  },
+
   {
     image: '/images/Sports.jpeg',
     title: 'Sports Arena',

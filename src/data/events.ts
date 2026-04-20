@@ -47,7 +47,7 @@ export const allEvents: EventType[] = [
     category: 'Awareness Program',
     heroImage: '/images/mega health camp.jpg',
     attendees: '1000+',
-    status: 'upcoming',
+    status: 'past',
     description: 'Anjuman Arts, Science and Commerce College, Bhatkal, is gearing up to host a Free Mega Health Camp and Cancer Awareness Program on 19th April 2026 at the Anjuman Degree College campus. The event is being organised in collaboration with Father Muller Medical College and Hospital, Mangalore. The camp will offer free specialist consultations across a wide range of medical departments, including General Medicine, Dermatology, General Surgery, ENT, Paediatrics, Ophthalmology, Obstetrics and Gynaecology, Orthopaedics, Speech and Hearing, and Surgical Oncology.',
   },
   {
