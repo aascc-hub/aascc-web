@@ -252,7 +252,7 @@ const HomePage = () => {
       name: 'Prof. Mohammed Yusuf Kola',
       role: 'Principal, Lecturer in Commerce',
       department: 'Teaching Staff',
-      image: '/images/principal.jpg'
+      image: '/images/Yusuf Kola.png'
     },
     {
       name: 'Mr. Mohammad Hibban',
@@ -264,7 +264,7 @@ const HomePage = () => {
       name: 'Mr. Manjunath Prabhu',
       role: 'H.O.D & Lecturer in Commerce',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/manjunath.png'
     },
     {
       name: 'Mr. Mohammed Ganim Mohtisham',
@@ -336,19 +336,19 @@ const HomePage = () => {
       name: 'Ms. Fathima Famina',
       role: 'Lecturer in Economics',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/Famina.png'
     },
     {
       name: 'Mr. K. Kaleemulla',
       role: 'Physical Education Director & Rovers Scout Leader',
-      department: 'Teaching Staff',
+      department: 'Non-Teaching Staff',
       image: '/images/Kaleemulla.jpg'
     },
     {
       name: 'Mr. Harsha Shreedhara Shetty',
       role: 'Lecturer in Chemistry',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/harsha shetty.png'
     },
     {
       name: 'Mrs. Pavitra R. Naik',
@@ -366,31 +366,31 @@ const HomePage = () => {
       name: 'Mrs. Bibi Noora Kasma',
       role: 'Lecturer in Botany ',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/Bibi Noora.png'
     },
      {
       name: 'Mrs. Niha',
       role: 'Lecturer in Kannada',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/Niha.png'
     },
     {
       name: 'Mrs. Bibi Suhela',
       role: 'Lecturer in Kannada',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/Bibi suhaila.png'
     },
     {
       name: 'Ms. Maimunnisa',
       role: 'Lecturer in Mathematics',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/maimunnisa.png'
     },
      {
       name: 'Maulana Danish Nadvi',
       role: 'Lecturer in Arabic',
       department: 'Teaching Staff',
-      image: ''
+      image: '/images/Danish-Nadvi.png'
     },
 
     // Non-Teaching Staff (6 members)
@@ -416,7 +416,7 @@ const HomePage = () => {
       name: 'Ms. Kadru Nusrath',
       role: 'S.D.C',
       department: 'Non-Teaching Staff',
-      image: ''
+      image: '/images/kadhru nusrat.png'
     },
     {
       name: 'Mr. Afzal G. Jamadar',
@@ -428,7 +428,7 @@ const HomePage = () => {
       name: 'Mr. Mohammed Ameer',
       role: 'Library Attender',
       department: 'Non-Teaching Staff',
-      image: ''
+      image: '/images/ameer.png'
     },
     {
       name: 'Mr. Mohammad Saleem',

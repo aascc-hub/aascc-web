@@ -9,10 +9,11 @@ const NonTeachingStaff = () => {
       staff: [
         { name: 'Mr. Jayadeep Shinde', designation: 'S.D.A', qualification: 'Diploma in Automobile Eng.', email: '', phone: '', image: '/images/Jayadeep.jpeg' },
         { name: 'Mr. Mohammed Muzammil', designation: 'S.D.A', qualification: 'BBA', image: '/images/Muzammil.jpg' },
-        { name: 'Ms. Kadru Nusrath', designation: 'S.D.C', qualification: 'B.Com', email: '', phone: '', image: '/images/' },
+        { name: 'Ms. Kadru Nusrath', designation: 'S.D.C', qualification: 'B.Com', email: '', phone: '', image: '/images/kadhru nusrat.png' },
         { name: 'Mr. Mohammed Zayan', designation: 'Accountant', qualification: 'BBA', email: '', phone: '', image: '/images/Mohammed-Zayan.jpeg' },
         { name: 'Mr. K. Kaleemulla', designation: 'Physical Education Director & Rovers Scout Leader', qualification: 'M.P.Ed, M.Phil', email: '', phone: '', image: '/images/Kaleemulla.jpg' },
         { name: 'Mr. Afzal G. Jamadar', designation: 'Librarian', qualification: 'M.L.I.Sc, M.Phil', email: '', phone: '', image: '/images/Afzal-G-Jamadar.jpeg' },
+         { name: 'Mr.Ameer', designation: 'Liabrary attender', qualification: 'B.A', email: '', phone: '', image: '/images/ameer.png' },
         { name: 'Mr. Mohammad Saleem', designation: 'Attender', qualification: 'B.A', email: '', phone: '', image: '/images/Mohammed-Saleem.jpeg' },
         { name: 'Mr. A. A. Mulla', designation: 'Attender', qualification: 'SSLC', email: '', phone: '', image: '/images/Mulla.jpg' },
         { name: 'Mr. Maqbool Ahmed', designation: 'Peon', qualification: 'SSLC', email: '', phone: '', image: '/images/Maqbool.jpeg' },
