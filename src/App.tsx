@@ -13,7 +13,7 @@ import Plans from './pages/about/Plans';
 import Policies from './pages/about/Policies';
 import CollegeByelaws from './pages/about/CollegeByelaws';
 import Contact from './pages/about/Contact';
-
+import NAACPage from './components/NAACPage';
 // Academics Pages
 import ProgramsOffered from './pages/academics/ProgramsOffered';
 import HowToApply from './pages/academics/HowToApply';
@@ -60,6 +60,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             
             {/* About Routes */}
+            <Route path="/naac" element={<NAACPage />} />
             <Route path="/about/introduction" element={<Introduction />} />
             <Route path="/about/vision-mission" element={<VisionMission />} />
             <Route path="/about/management" element={<Management />} />
@@ -68,6 +69,7 @@ function App() {
             <Route path="/about/policies" element={<Policies />} />
             <Route path="/about/college-byelaws" element={<CollegeByelaws />} />
             <Route path="/about/contact" element={<Contact />} />
+            
             
             {/* Academics Routes */}
             <Route path="/academics/programs-offered" element={<ProgramsOffered />} />
