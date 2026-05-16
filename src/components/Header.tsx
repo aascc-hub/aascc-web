@@ -2,6 +2,24 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, ChevronDown, Facebook, Twitter, Instagram, Linkedin, Youtube, Phone, Mail } from 'lucide-react';
 
+// Explicit type definitions to handle multi-level nested menus cleanly
+interface NestedSubMenuItem {
+  name: string;
+  path: string;
+}
+
+interface SubMenuItem {
+  name: string;
+  path?: string;
+  submenu?: NestedSubMenuItem[];
+}
+
+interface MenuItem {
+  name: string;
+  path?: string;
+  submenu?: SubMenuItem[];
+}
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,7 +32,7 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const menuItems = [
+ const menuItems: MenuItem[] = [
     { name: 'Home', path: '/' },
     {
       name: 'About',
@@ -22,7 +40,6 @@ const Header = () => {
         { name: 'Introduction', path: '/about/introduction' },
         { name: 'Vision & Mission', path: '/about/vision-mission' },
         { name: "Principal's Desk", path: '/staff/principal-desk' },
-
         {
           name: 'Staff',
           submenu: [
@@ -53,7 +70,36 @@ const Header = () => {
       ]
     },
     { name: 'Governing Bodies', path: '/about/management' },
-    { name: 'NAAC', path: '/naac' },
+    { 
+      name: 'NAAC', 
+      submenu: [
+        { name: 'NAAC ACCREDITATIONS', path: '/naac/accreditations' },
+        {
+          name: 'AQAR',
+          submenu: [
+            { name: 'AQAR – PROCEDURES AND POLICIES', path: '/naac/aqar/procedures' }
+          ]
+        },
+        {
+          name: 'IQAC',
+          submenu: [
+            { name: 'IQAC OBJECTIVES', path: '/naac/iqac/objectives' },
+            { name: 'IQAC MEETINGS', path: '/naac/iqac/meetings' },
+            { name: 'IQAC ACTION TAKEN REPORT', path: '/naac/iqac/action-report' },
+            { name: 'FEEDBACK ON THE SYLLABUS BY STUDENTS AND TEACHERS', path: '/naac/iqac/syllabus-feedback' }
+          ]
+        },
+        { name: 'AUDIT REPORTS', path: '/naac/audit-reports' },
+        { name: 'FEEDBACKS', path: '/naac/feedbacks' },
+        {
+          name: 'SSS',
+          submenu: [
+            { name: 'STUDENT PERFORMANCE AND LEARNING OUTCOMES', path: '/naac/sss/learning-outcomes' },
+            { name: 'INSTITUTIONAL FEEDBACKS', path: '/naac/sss/institutional-feedbacks' }
+          ]
+        }
+      ]
+    },
     { name: 'Gallery', path: '/gallery' },
     {
       name: 'Student Corner',
@@ -66,7 +112,6 @@ const Header = () => {
     },
     { name: 'Contact', path: '/about/contact' }
   ];
-
   const isContact = (name: string) => name === 'Contact';
 
   const handleDropdownClick = (name: string) => {
@@ -133,7 +178,6 @@ const Header = () => {
                   <>
                     <button
                       onClick={() => handleDropdownClick(item.name)}
-
                       className={`flex items-center px-3 py-2 rounded font-medium transition-all duration-200 ${
                         isContact(item.name)
                           ? 'bg-blue-900 text-white shadow-md hover:bg-blue-800'
@@ -186,7 +230,7 @@ const Header = () => {
                               </>
                             ) : (
                               <Link
-                                to={subItem.path}
+                                to={subItem.path || '#'}
                                 className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-900 transition-colors duration-200"
                               >
                                 {subItem.name}
@@ -199,7 +243,7 @@ const Header = () => {
                   </>
                 ) : (
                   <Link
-                    to={item.path}
+                    to={item.path || '#'}
                     className={`px-3 py-2 rounded-full font-medium transition-all duration-200 ${
                       isContact(item.name)
                         ? 'bg-blue-900 text-white shadow-md hover:bg-blue-800'
@@ -238,7 +282,7 @@ const Header = () => {
 };
 
 // Mobile menu
-const MobileMenuItem = ({ item, closeMenu }: { item: any; closeMenu: () => void }) => {
+const MobileMenuItem = ({ item, closeMenu }: { item: MenuItem; closeMenu: () => void }) => {
   const [isOpen, setIsOpen] = useState(false);
   const isContact = item.name === 'Contact';
 
@@ -257,7 +301,7 @@ const MobileMenuItem = ({ item, closeMenu }: { item: any; closeMenu: () => void 
           </button>
           {isOpen && !isContact && (
             <div className="bg-gray-50">
-              {item.submenu.map((subItem: any) => (
+              {item.submenu.map((subItem) => (
                 <MobileSubMenuItem key={subItem.name} item={subItem} closeMenu={closeMenu} />
               ))}
             </div>
@@ -265,7 +309,7 @@ const MobileMenuItem = ({ item, closeMenu }: { item: any; closeMenu: () => void 
         </>
       ) : (
         <Link
-          to={item.path}
+          to={item.path || '#'}
           onClick={closeMenu}
           className={`block px-4 py-3 text-gray-700 hover:bg-gray-50 ${
             isContact ? 'bg-blue-900 text-white rounded-full shadow-md hover:bg-blue-800' : ''
@@ -278,7 +322,7 @@ const MobileMenuItem = ({ item, closeMenu }: { item: any; closeMenu: () => void 
   );
 };
 
-const MobileSubMenuItem = ({ item, closeMenu }: { item: any; closeMenu: () => void }) => {
+const MobileSubMenuItem = ({ item, closeMenu }: { item: SubMenuItem; closeMenu: () => void }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="pl-4 border-l border-gray-200">
@@ -293,10 +337,11 @@ const MobileSubMenuItem = ({ item, closeMenu }: { item: any; closeMenu: () => vo
           </button>
           {isOpen && (
             <div className="bg-gray-100">
-              {item.submenu.map((nested: any) => (
+              {item.submenu.map((nested) => (
                 <Link
                   key={nested.name}
                   to={nested.path}
+                  onClick={closeMenu}
                   className="block px-4 py-2 text-gray-600 hover:bg-gray-200 text-sm"
                 >
                   {nested.name}
@@ -307,7 +352,7 @@ const MobileSubMenuItem = ({ item, closeMenu }: { item: any; closeMenu: () => vo
         </>
       ) : (
         <Link
-          to={item.path}
+          to={item.path || '#'}
           onClick={closeMenu}
           className="block px-4 py-2 text-gray-600 hover:bg-gray-200 text-sm"
         >

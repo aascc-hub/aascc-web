@@ -26,6 +26,8 @@ import AnnualReport2015 from './pages/academics/AnnualReport2015';
 import AnnualReport2014 from './pages/academics/AnnualReport2014';
 import AnnualReport2019 from './pages/academics/AnnualReport2019';
 
+
+
 // Program Detail Imports 
 // (Make sure bba.tsx and bca.tsx exist in your academics folder)
 
@@ -48,6 +50,8 @@ import Placements from './pages/students/Placements';
 import Eventlist from './pages/events/Eventlist';
 import Eventdetails from './pages/events/Eventdetails';
 import Gallery from './pages/Gallery/Gallery';
+import NaacAccreditations from './pages/about/NaacAccreditations';
+import AqarProcedures from './pages/about/AqarProcedures';
 
 function App() {
   return (
@@ -91,6 +95,10 @@ function App() {
             <Route path="/academics/annual-reports/2015-16" element={<AnnualReport2015 />} />
             <Route path="/academics/annual-reports/2014-15" element={<AnnualReport2014 />} />
             <Route path="/academics/annual-report-2019-20" element={<AnnualReport2019 />} />
+            {/* NAAC Dropdown Routes */}
+            <Route path="/naac/accreditations" element={<NaacAccreditations />} />
+            <Route path="/naac/aqar/procedures" element={<AqarProcedures />} />
+
 
             {/* Staff Routes */}
             <Route path="/staff/principal-desk" element={<PrincipalDesk />} />
