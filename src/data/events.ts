@@ -16,20 +16,20 @@ export interface EventType {
 }
 
 export const allEvents: EventType[] = [
-  {
-    id: 1,
-    title: 'FUZIONA',
-    date: '2026-12-25',
-    day: '25',
-    month: 'Dec',
-    time: '9:00 AM - 1:00 PM',
-    venue: 'College Auditorium',
-    category: 'workshop',
-    heroImage: '/images/FUZIONA.jpg',
-    attendees: '500+ participants',
-    status: 'upcoming',
-    description: 'Fuziona is the premier inter-collegiate cultural and academic fest organized by Anjuman Arts, Science, Commerce College and PG Centre, Bhatkal. It serves as a dynamic platform for students to showcase their talents across 13+ diverse competitions, ranging from literary debates to cultural performances.'
-  },
+  // {
+  //   id: 1,
+  //   title: 'FUZIONA',
+  //   date: '2026-12-25',
+  //   day: '25',
+  //   month: 'Dec',
+  //   time: '9:00 AM - 1:00 PM',
+  //   venue: 'College Auditorium',
+  //   category: 'workshop',
+  //   heroImage: '/images/FUZIONA.jpg',
+  //   attendees: '500+ participants',
+  //   status: 'upcoming',
+  //   description: 'Fuziona is the premier inter-collegiate cultural and academic fest organized by Anjuman Arts, Science, Commerce College and PG Centre, Bhatkal. It serves as a dynamic platform for students to showcase their talents across 13+ diverse competitions, ranging from literary debates to cultural performances.'
+  // },
   {
     id: 2,
     title: 'Free Mega Health Camp and Cancer Awareness Programme',
