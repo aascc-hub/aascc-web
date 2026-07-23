@@ -64,8 +64,22 @@ export const allEvents: EventType[] = [
     status: 'past',
     description: 'The Uttara Kannada District Football Association successfully hosted a three-day Referee Examination in Bhatkal from March 27th to 29th, 2026. The event was conducted under the supervision of the Karnataka State Football Association and its Referee Committee. A total of 28 aspirants participated in the program, representing various regions.',
   },
-  {
+   {
     id: 3,
+    title: ' Navigating Higher Education in the Age of AI ',
+    date: '2026-7-22',
+    day: '22',
+    month: 'Jul',
+    time: '10:00 AM - 11:00 AM',
+    venue: 'fUNctional Hall',
+    category: 'Seminar',
+    heroImage: '/images/quazi.jpg',
+    attendees: '300+ participants',
+    status: 'past',
+    description: 'The Student Welfare Wing of Anjuman Arts, Science and Commerce College, Bhatkal, under the aegis of IQAC, successfully organized a seminar on "Navigating Higher Education in the Age of AI" on 22nd July 2026 at 10:00 a.m. The seminar featured Dr. Mohammed Quazi, Assistant Professor and Biostatistician at West Virginia University, USA, as the distinguished resource person. The programme was efficiently hosted by Prof. Mohammed Ganim, Student Welfare Officer, who welcomed the gathering and introduced the significance of the seminar in today s rapidly evolving academic landscape. The programme commenced with the recitation of the Holy Qur anic verses by Mr. Raeed Ruknuddin, a student of III B.Com, creating a solemn and inspiring atmosphere. This was followed by the introduction of the programme by Mr. Ahmed Ikkery of I B.Com, who warmly welcomed the dignitaries, faculty members and students. The keynote address was then delivered by Dr. Mohammed Quazi, who conducted an engaging and highly interactive session on the changing landscape of higher education in the era of Artificial Intelligence. Drawing from his academic and research experience, he emphasized that while AI is transforming learning and professional work, higher education continues to play a vital role in developing critical thinking, creativity, collaboration and ethical decision-making',
+  },
+  {
+    id: 4,
     title: '1st Prize – Finance Event at Canvas 2025',
     date: '2024-11-29',
     day: '29',
@@ -79,7 +93,7 @@ export const allEvents: EventType[] = [
     description: 'Our students delivered an outstanding performance at Canvas 2025, the National-Level Management Fest hosted by Farook College, Kozhikode, Kerala, securing the 1st Prize in the Finance event.',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Graduation Day',
     date: '2024-08-26',
     day: '26',
@@ -93,7 +107,7 @@ export const allEvents: EventType[] = [
     description: 'Celebrating the achievements of our graduating students. The event featured a formal ceremony where students received their diplomas, along with inspiring speeches from faculty members and guest speakers.'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Personality And Skills Development Workshop',
     date: '2025-10-08',
     day: '08',
@@ -107,7 +121,7 @@ export const allEvents: EventType[] = [
     description: 'The Personality and Skills Development Workshop was conducted by AIMCA, Bhatkal on October 8, 2025. The event aimed to enhance students\' personal and professional skills through interactive sessions.'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Independence Day Celebration',
     date: '2025-08-15',
     day: '15',
@@ -121,7 +135,7 @@ export const allEvents: EventType[] = [
     description: 'The Independence Day Celebration was a vibrant event held to commemorate the spirit of freedom and patriotism, featuring a flag hoisting ceremony and cultural performances.'
   },
   {
-    id: 7,
+    id: 8,
     title: 'Karnataka Rajyotsava Celebration',
     date: '2023-11-01',
     day: '01',
@@ -135,7 +149,7 @@ export const allEvents: EventType[] = [
     description: 'The Karnataka Rajyotsava Celebration was a vibrant event held to commemorate the formation of Karnataka state, showcasing the rich heritage and traditions of our state.'
   },
   {
-    id: 8,
+    id: 9,
     title: 'Road Safety Awareness Campaign',
     date: '2024-06-12',
     day: '12',
