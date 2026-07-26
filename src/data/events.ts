@@ -71,7 +71,7 @@ export const allEvents: EventType[] = [
     day: '22',
     month: 'Jul',
     time: '10:00 AM - 11:00 AM',
-    venue: 'fUNctional Hall',
+    venue: 'Functional Hall',
     category: 'Seminar',
     heroImage: '/images/quazi.jpg',
     attendees: '300+ participants',
