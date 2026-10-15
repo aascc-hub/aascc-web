@@ -38,7 +38,7 @@ const HomePage = () => {
     },
     
      {
-      image: '/images/Stock market.jpg',
+      image: '/images/Sm.jpg',
       title: 'Learning Through Live Trading',
       subtitle: 'A LIVE STEP INTO THE WORLD OF TRADING',
       description: 'An add-on course on stock market trading Conducted by Prof.MUSADDIQUE KHAN'
