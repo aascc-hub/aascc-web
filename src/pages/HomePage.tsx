@@ -36,12 +36,33 @@ const HomePage = () => {
       subtitle: 'State-of-the-art Infrastructure',
       description: 'World-class laboratories, libraries, and recreational facilities'
     },
+    
+     {
+      image: '/images/Stock market.jpg',
+      title: 'Learning Through Live Trading',
+      subtitle: 'A LIVE STEP INTO THE WORLD OF TRADING',
+      description: 'An add-on course on stock market trading Conducted by Prof.MUSADDIQUE KHAN'
+    },
+     {
+      image: '/images/Sabiya.jpg',
+      title: 'Chess Achivement KUD 2026-27',
+      subtitle: 'Miss Sabiya Naaz , BSc 1st Semester',
+      description: 'Proud of your Acchivement in Chess Tournament KUD 2026-27 Sabiya'
+    },
+
     {
       image: '/images/green.jpg',
       title: 'Modern Campus Facilities',
       subtitle: 'State-of-the-art Infrastructure',
       description: 'World-class laboratories, libraries, and recreational facilities'
     },
+    {
+      image: '/images/green.jpg',
+      title: 'Modern Campus Facilities',
+      subtitle: 'State-of-the-art Infrastructure',
+      description: 'World-class laboratories, libraries, and recreational facilities'
+    },
+
     {
       image: '/images/C5.jpeg',
       title: 'Modern Campus Facilities',
