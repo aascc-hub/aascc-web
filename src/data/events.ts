@@ -40,7 +40,7 @@ export const allEvents: EventType[] = [
     time: '8:30 AM - 1:00 PM',
     venue: 'College Campus',
     category: 'Placement Drive',
-    heroImage: '/images/tcs.jpg',
+    heroImage: '/images/tcs2.jpg',
     attendees: '500 participants',
     status: 'upcoming',
     description: 'Anjuman Arts, Science and Commerce College, Bhatkal, is thrilled to announce an upcoming Placement Drive scheduled for 24th October 2026. This event aims to provide our students with valuable career opportunities and connect them with leading companies in various industries. The Placement Drive will feature on-campus interviews, skill assessments, and networking sessions with industry professionals. Students are encouraged to prepare their resumes and dress professionally to make a positive impression on potential employers.',
