@@ -30,19 +30,20 @@ export const allEvents: EventType[] = [
   //   status: 'upcoming',
   //   description: 'Fuziona is the premier inter-collegiate cultural and academic fest organized by Anjuman Arts, Science, Commerce College and PG Centre, Bhatkal. It serves as a dynamic platform for students to showcase their talents across 13+ diverse competitions, ranging from literary debates to cultural performances.'
   // },
+
    {
-    id: 2,
-    title: 'UKDFA Referee Examination',
-    date: '2026-3-27',
-    day: '27',
-    month: 'Mar',
-    time: '9:00 AM - 1:00 PM',
+    id: 1,
+    title: 'Placement Drive By TATA Cunsultancy Services (TCS)',
+    date: '2026-10-24',
+    day: '24',
+    month: 'Oct',
+    time: '8:30 AM - 1:00 PM',
     venue: 'College Campus',
-    category: 'Examination',
-    heroImage: '/images/UKDFA.jpg',
-    attendees: '28 participants',
-    status: 'past',
-    description: 'The Uttara Kannada District Football Association successfully hosted a three-day Referee Examination in Bhatkal from March 27th to 29th, 2026. The event was conducted under the supervision of the Karnataka State Football Association and its Referee Committee. A total of 28 aspirants participated in the program, representing various regions.',
+    category: 'Placement Drive',
+    heroImage: '/images/tcs.jpg',
+    attendees: '500 participants',
+    status: 'upcoming',
+    description: 'Anjuman Arts, Science and Commerce College, Bhatkal, is thrilled to announce an upcoming Placement Drive scheduled for 24th October 2026. This event aims to provide our students with valuable career opportunities and connect them with leading companies in various industries. The Placement Drive will feature on-campus interviews, skill assessments, and networking sessions with industry professionals. Students are encouraged to prepare their resumes and dress professionally to make a positive impression on potential employers.',
   },
   //  {
   //   id: 2,
@@ -60,7 +61,7 @@ export const allEvents: EventType[] = [
   // },
 
   {
-    id: 1,
+    id: 2,
     title: 'Free Mega Health Camp and Cancer Awareness Programme', 
     expectations: [
     'Specialist Consultations',
@@ -80,7 +81,7 @@ export const allEvents: EventType[] = [
     description: 'Anjuman Arts, Science and Commerce College, Bhatkal, is gearing up to host a Free Mega Health Camp and Cancer Awareness Program on 19th April 2026 at the Anjuman Degree College campus. The event is being organised in collaboration with Father Muller Medical College and Hospital, Mangalore. The camp will offer free specialist consultations across a wide range of medical departments, including General Medicine, Dermatology, General Surgery, ENT, Paediatrics, Ophthalmology, Obstetrics and Gynaecology, Orthopaedics, Speech and Hearing, and Surgical Oncology.',
   },
   {
-    id: 2,
+    id: 3,
     title: 'UKDFA Referee Examination',
     date: '2026-3-27',
     day: '27',
@@ -94,7 +95,7 @@ export const allEvents: EventType[] = [
     description: 'The Uttara Kannada District Football Association successfully hosted a three-day Referee Examination in Bhatkal from March 27th to 29th, 2026. The event was conducted under the supervision of the Karnataka State Football Association and its Referee Committee. A total of 28 aspirants participated in the program, representing various regions.',
   },
    {
-    id: 3,
+    id: 4,
     title: '  INCEPTION 2026 ',
     date: '2026-8-2',
     day: '2',
@@ -108,7 +109,7 @@ export const allEvents: EventType[] = [
     description: 'Anjuman Arts, Science & Commerce College, Bhatkal proudly presents INCEPTION 2026, an IQAC initiative organized by the Final Year Students under the Student Welfare Wing, to warmly welcome our first year students into the Anjuman family. The event was graced by our distinguished Chief Guest  CA Abdul Ahad Mohtisham, Assistant Manager  Finance & Payroll  Prime Healthcare Group  UAE  who shared valuable insights and inspiring words  encouraging students to embrace opportunities pursue excellence and shape a successful future',
   },
    {
-    id: 4,
+    id: 5,
     title: ' Navigating Higher Education in the Age of AI ',
     date: '2026-7-22',
     day: '22',
@@ -123,7 +124,7 @@ export const allEvents: EventType[] = [
   },
   
   {
-    id: 5,
+    id: 6,
     title: '1st Prize – Finance Event at Canvas 2025',
     date: '2024-11-29',
     day: '29',
@@ -137,7 +138,7 @@ export const allEvents: EventType[] = [
     description: 'Our students delivered an outstanding performance at Canvas 2025, the National-Level Management Fest hosted by Farook College, Kozhikode, Kerala, securing the 1st Prize in the Finance event.',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Graduation Day',
     date: '2024-08-26',
     day: '26',
@@ -151,7 +152,7 @@ export const allEvents: EventType[] = [
     description: 'Celebrating the achievements of our graduating students. The event featured a formal ceremony where students received their diplomas, along with inspiring speeches from faculty members and guest speakers.'
   },
   {
-    id: 7,
+    id: 8,
     title: 'Personality And Skills Development Workshop',
     date: '2025-10-08',
     day: '08',
@@ -165,7 +166,7 @@ export const allEvents: EventType[] = [
     description: 'The Personality and Skills Development Workshop was conducted by AIMCA, Bhatkal on October 8, 2025. The event aimed to enhance students\' personal and professional skills through interactive sessions.'
   },
   {
-    id: 8,
+    id: 9,
     title: 'Independence Day Celebration',
     date: '2025-08-15',
     day: '15',
@@ -179,7 +180,7 @@ export const allEvents: EventType[] = [
     description: 'The Independence Day Celebration was a vibrant event held to commemorate the spirit of freedom and patriotism, featuring a flag hoisting ceremony and cultural performances.'
   },
   {
-    id: 9,
+    id: 10,
     title: 'Karnataka Rajyotsava Celebration',
     date: '2023-11-01',
     day: '01',
@@ -193,7 +194,7 @@ export const allEvents: EventType[] = [
     description: 'The Karnataka Rajyotsava Celebration was a vibrant event held to commemorate the formation of Karnataka state, showcasing the rich heritage and traditions of our state.'
   },
   {
-    id: 10,
+    id: 11,
     title: 'Road Safety Awareness Campaign',
     date: '2024-06-12',
     day: '12',
