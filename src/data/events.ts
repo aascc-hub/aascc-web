@@ -35,7 +35,7 @@ export const allEvents: EventType[] = [
     id: 1,
     title: 'TCS BPS Placement Drive for graduates to be held in AASCC on October 24',
     date: '2026-10-17',
-    day: '24',
+    day: '17',
     month: 'Oct',
     time: '8:30 AM - 1:00 PM',
     venue: 'College Campus',
