@@ -45,9 +45,9 @@ const HomePage = () => {
     },
      {
       image: '/images/Sabiya.jpg',
-      title: 'Chess Achivement KUD 2026-27',
+      title: 'Chess Achievement KUD 2026-27',
       subtitle: 'Miss Sabiya Naaz , BSc 1st Semester',
-      description: 'Proud of your Acchivement in Chess Tournament KUD 2026-27 Sabiya'
+      description: 'Proud of your Achievement in Chess Tournament KUD 2026-27 Sabiya'
     },
 
     {
@@ -155,7 +155,7 @@ const HomePage = () => {
 
   const featuredPrograms = [
     {
-      title: 'Bachelor of COmmerce',
+      title: 'Bachelor of Commerce',
       abbreviation: 'B.Com',
       description: 'Comprehensive commerce education with practical business insights',
       image: 'https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
